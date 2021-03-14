@@ -2,11 +2,11 @@ function navSlide() {
     const burger = document.querySelector(".burger");
     const nav = document.querySelector(".nav-links");
     const navLinks = document.querySelectorAll(".nav-links li");
-    
+
     burger.addEventListener("click", () => {
         //Toggle Nav
         nav.classList.toggle("nav-active");
-        
+
         //Animate Links
         navLinks.forEach((link, index) => {
             if (link.style.animation) {
@@ -17,7 +17,37 @@ function navSlide() {
         });
         //Burger Animation
         burger.classList.toggle("toggle");
-    });    
+    });
 }
 
 navSlide();
+
+const slides = document.getElementsByClassName('testimonial-container')
+const prevBtn = document.querySelector("#leftBtn")
+const nextBtn = document.querySelector("#rightBtn")
+
+console.log(slides)
+
+let index = 0
+
+prevBtn.addEventListener('click', () => {
+    slides[index].classList.add('hidden')
+
+    if (index === 0) {
+        index = slides.length - 1
+    } else {
+        index--
+    }
+    slides[index].classList.remove('hidden')
+})
+
+nextBtn.addEventListener('click', () => {
+    slides[index].classList.add('hidden')
+
+    if (index >= slides.length - 1) {
+        index = 0
+    } else {
+        index++
+    }
+    slides[index].classList.remove('hidden')
+})
