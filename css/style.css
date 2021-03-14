@@ -1,7 +1,8 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 0;    
     box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
 }
 
 /* Nav bar */
@@ -148,7 +149,7 @@ nav {
     display: flex;
     justify-content: space-between;
     margin: 30px auto;
-    height: 50vh;
+    min-height: 50vh;
 }
 
 .container .card .icon {
@@ -246,7 +247,7 @@ i {
 /* What we do */
 .container1 {
     width: 100%;    
-    height: 50vh;
+    min-height: 50vh;
     color: black;    
     background-color: #eee;   
 }
@@ -275,7 +276,7 @@ i {
 .container2 {
     background-color: #5D4954;
     color: white;
-    height: 60vh;
+    min-height: 60vh;
     box-sizing: border-box;
 }
 
@@ -308,3 +309,145 @@ i {
 .point:hover {
     
 }
+
+/* Meet The Team */
+.meet-the-team{
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .our_team{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .our_team .team_member{
+    width: 250px;
+    margin: 5px;
+    background: #fff;
+    padding: 20px 10px;
+  }
+  
+  .our_team .team_member .member_img{
+    background: #e9e5fa;  
+    max-width: 190px;
+    width: 100%;
+    height: 190px;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .our_team .team_member .member_img img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .our_team .team_member h3{
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    margin: 15px 0 0px;
+  }
+  
+  .our_team .team_member span{    
+    font-size: 14px;
+  }
+  
+  .our_team .team_member .member_img .social_media{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background: rgba(0,0,0,0.65);
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+     transition: all 0.5s ease;
+  }
+  
+  .our_team .team_member .member_img .social_media .item{
+      position: absolute;
+      top: 15%;
+      left: -25px;
+  }
+  
+  .our_team .team_member .member_img .social_media .fab{
+    color: #8c7ae6;
+    font-size: 20px;
+  }
+  
+  .our_team .team_member .member_img:hover .social_media{
+    transform: scale(1);
+  }
+
+  .heading5 {  
+    font-size: 30px;     
+    text-align: center;
+  }
+
+  /* Get in touch */
+  .contact-form {
+      background-color: #5D4954;
+      color: white;
+      min-height: 60vh;    
+      padding-bottom: 20px;        
+  }
+
+  .contact-form h3 {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    font-size: 30px; 
+    padding-left: 20%
+  }
+
+  .contact-form form {
+      padding-left: 20%;        
+  }
+
+  .input-container input, textarea {
+      color: #5D4954;
+      outline: none;
+      width: 40%;
+      border-radius: 1em;
+      padding: 10px;
+      margin-bottom: 10px;
+      background: #eee;
+  }
+
+  textarea {      
+        height: 150px;           
+  }
+
+  .btn {
+      margin-left: 5px;
+      width: 80px;
+      height: 35px;
+      cursor: pointer;
+      letter-spacing: 1px;
+      outline: none;        
+      transition: all 0.1s ease;   
+      text-transform: uppercase;
+      border-radius: 0.2em;
+      background-color: transparent;
+      border: solid 3px white;
+      color: white;
+      font-weight: bold;
+      box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); 
+      transition: all 0.3s ease-in-out;
+  }
+
+  .btn:hover {
+      background-color: rgb(88, 86, 86);
+      color: white;      
+  }
+
+
