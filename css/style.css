@@ -1,4 +1,6 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
 *{
     margin: 0;
@@ -14,10 +16,18 @@ html{
     font-size: 62.5%;
 }
 
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  overflow-x: hidden;
+}
 
 /* NAVBAR */
 nav {
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -126,6 +136,8 @@ nav {
     transform: rotate(45deg) translate(-5px, -6px);
   }
 
+/************ HEADER IMAGE  ************/
+
 .header{
     width: 100%;
     height: 100vh;
@@ -170,6 +182,9 @@ nav {
     color: #fff;
     width: 50%;
     letter-spacing: 0.2rem;
+    text-align: center;
+    border-radius: 2px;
+    padding: 10px 15px;
     text-shadow: 0 0.3rem .5rem rgba(0,0,0,0.4);
     background-color: rgba(0,0,0,0.3);
 }
@@ -177,9 +192,9 @@ nav {
 .quotes{
     position: absolute;
     top: 27%;
-    left: 13%;
+    left: 17%;
     font-size: 4rem;
-    color: rgba(200,198,167,0.7);
+    color: rgba(0,0,0,0.7);
 }
 
 .fa-quote-right{
@@ -190,7 +205,6 @@ nav {
 /* What we do section */
 section.container1{
     padding: 20px 30px;
-    height: 60vh;
     width: 100%;
     background-color: #f6f5f5;
     
@@ -251,14 +265,30 @@ li.row{
 
 /******************* How it works ******************/
 .container {
-    width: 1000px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin: 30px auto;
-    height: 50vh;
+    padding: 0 15rem;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 50vh; */
     
   }
   
+@media(max-width: 1024px){
+  .container{
+    margin: 25px auto;
+    padding: 0 7rem;
+  }
+}
+
+@media(max-width: 768px){
+  .container{
+    flex-direction: column;
+  }
+}
+
   .container .card .icon {
     position: absolute;
     top: 0;
@@ -363,10 +393,10 @@ li.row{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  width: 100%;
   overflow: hidden;
-  margin: 30px 0;
-  padding: 0;
+  margin: 50px 0;
+  padding: 40px 0;
   
 }
 
@@ -385,9 +415,13 @@ h1.testimonial-heading{
   background-color: #476ce4;
   color: #fff;
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   margin: 20px auto;
   padding: 50px 80px;
   max-width: 900px;
+  height: 40rem;
   position: relative;
   transition: 0.5s ease-in-out;
 }
@@ -397,18 +431,18 @@ h1.testimonial-heading{
   transition: 0.5s ease;
 }
 
-.fa-quote {
+.fa-review-quote {
   color: rgba(255, 255, 255, 0.3);
   font-size: 28px;
   position: absolute;
   top: 70px;
 }
 
-.fa-quote-right {
+.fa-review-quote-right {
   left: 40px;
 }
 
-.fa-quote-left {
+.fa-review-quote-left {
   right: 40px;
 }
 
@@ -437,9 +471,10 @@ h1.testimonial-heading{
   right: 10px;
 }
 
-.testimonial {
+p.testimonial {
   line-height: 28px;
   text-align: justify;
+  font-size: 1.7rem;
 }
 
 .user {
@@ -457,7 +492,8 @@ h1.testimonial-heading{
 
 .user .user-details {
   margin-left: 10px;
-  font-size: 12px;
+  font-size: 1.7rem;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .user .username {
@@ -467,6 +503,7 @@ h1.testimonial-heading{
 .user .role {
   font-weight: normal;
   margin: 10px 0px;
+  font-weight: 300;
 }
 
 @media (max-width: 768px) {
@@ -474,7 +511,7 @@ h1.testimonial-heading{
     padding: 20px 30px;
   }
 
-  .fa-quote {
+  .fa-review-quote {
     display: none;
   }
 }
@@ -483,7 +520,8 @@ h1.testimonial-heading{
 .container2 {
   background-color: #5d4954;
   color: white;
-  height: 60vh;
+  height: auto;
+  width: 100vw;
   box-sizing: border-box;
 }
 
