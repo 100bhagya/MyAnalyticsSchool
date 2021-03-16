@@ -136,7 +136,6 @@ nav {
 
 .header{
     width: 100%;
-    height: 100vh;
     position: relative;
     overflow: hidden;
     z-index: -1;
@@ -185,17 +184,38 @@ nav {
     background-color: rgba(0,0,0,0.3);
 }
 
+
+
 .quotes{
     position: absolute;
     top: 27%;
     left: 17%;
-    font-size: 4rem;
+    font-size: 2.5rem;
     color: rgba(0,0,0,0.7);
 }
 
 .fa-quote-right{
     left: 50%;
     top: 55%;
+}
+
+@media(max-width: 1200px){
+  .quote blockquote {
+    font-size: 2rem;
+  }
+}
+
+@media(max-width: 900px){
+  .quote blockquote{
+    font-size: 1.6rem;
+  }
+}
+
+@media(max-width:460px){
+  .quote blockquote{
+    font-size: 1rem;
+    width: 75%;
+  }
 }
 
 /* What we do section */
@@ -219,6 +239,15 @@ section.container1{
   font-weight: 400;
   padding: 20px;
 }
+
+
+
+/* .underline-heading{
+  width: 200px;
+  height: 2px;
+  background-color: rgb(49,78,82);
+  margin: 30px auto 50px auto;
+} */
 
 .wwd-list{
   display: flex;
@@ -252,6 +281,8 @@ li.row{
   transition: transform .2s ease-in-out, padding .2s ease-in-out;
 }
 
+
+
 li.row:nth-child(1){
   background-color: #e07768;
   transform: translateX(-55px);
@@ -268,22 +299,61 @@ li.row:nth-child(3){
   padding-left: 50px;
 }
 
-li.row:nth-child(1):hover{
-  transform: scale(1.1);
-  box-shadow: 3px 3px 12px rgba(0,0,0,0.3);
-}
-
-li.row:nth-child(2):hover{
+li.row:hover{
   transform: scale(1.1);
   box-shadow: 3px 3px 12px rgba(0,0,0,0.3);
   padding-left: 55px;
 }
 
-li.row:nth-child(3):hover{
-  transform: scale(1.1);
-  box-shadow: 3px 3px 12px rgba(0,0,0,0.3);
+@media(max-width: 1200px){
+  li.row{
+    font-size: 1.05rem;
+  }
+  li.row:hover{
+    transform: scale(1.05);
+    box-shadow: 3px 3px 12px rgba(0,0,0,0.3);
+    padding-left: 55px;
+  }
 }
 
+@media(max-width:900px){
+  .heading3 h3{
+    font-size: 2.7rem;
+    padding: 18px;
+  }
+ .wwd-list{
+    width: 90%;
+ }
+
+  img.list-img{
+    height: 220px;
+    width: 280px;
+
+  }
+  li.row{
+    font-size: 0.9rem;
+  }
+}
+
+@media(max-width:460px){
+  .heading3 h3{
+    font-size: 2.2rem;
+  }
+  img.list-img{
+    display: none;
+  }
+  li.row{
+    margin: 20px 30px;
+  }
+  li.row:nth-child(1){
+    transform: translateX(0);
+    
+  }
+  li.row:nth-child(3){
+    transform: translateX(0);
+    
+  }
+}
 /******************* How it works ******************/
 
 h1.hiw-heading{
@@ -293,12 +363,19 @@ h1.hiw-heading{
   font-weight: 400;
 }
 
+@media(max-width:900px){
+  h1.hiw-heading{
+    margin-top: 26px;
+    font-size: 2.7rem;
+  }
+}
+
 .container {
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin: 30px auto;
-    padding: 0 15rem;
+    padding: 0 9.375rem;
     align-items: center;
     /* height: 50vh; */
     
@@ -307,7 +384,7 @@ h1.hiw-heading{
 @media(max-width: 1024px){
   .container{
     margin: 25px auto;
-    padding: 0 7rem;
+    padding: 0 4.375rem;
   }
 }
 
@@ -435,6 +512,8 @@ h1.testimonial-heading{
   padding-bottom: 3.125rem;
 }
 
+
+
 .testimonial-section{
   position: relative;
 }
@@ -453,6 +532,7 @@ h1.testimonial-heading{
   position: relative;
   transition: 0.5s ease-in-out;
 }
+
 
 .testimonial-container.hidden{
   display: none;
@@ -534,15 +614,41 @@ p.testimonial {
   font-weight: 300;
 }
 
-@media (max-width: 768px) {
-  .testimonial-container {
-    padding: 20px 30px;
+@media(max-width:900px){
+  h1.testimonial-heading{
+    font-size: 2.7rem;
+    padding-bottom: 2.7rem;
   }
 
-  .fa-review-quote {
-    display: none;
+  .testimonial-container{
+    max-width: 600px;
+  }
+  .user .user-details{
+    font-size: 1.2rem;
+    margin-left: 8px;
+  }
+  p.testimonial{
+    line-height: 22px;
+    font-size: 0.9rem;
   }
 }
+
+@media(max-width:460px){
+  h1.testimonial-heading{
+    font-size: 2.2rem;
+    padding-bottom: 2.3rem;
+  }
+  .testimonial-container{
+    max-width: 400px;
+    border-radius: 0;
+    padding: 0 20px;
+  }
+  .fa-arrow {
+    font-size: 35px;
+    top: calc(80% - 30px);
+  }
+}
+
 
 /* Our Unique offerings */
 .container2 {
@@ -556,7 +662,7 @@ p.testimonial {
 .offerings {
   display: grid;
   grid-template-columns: auto 40% auto;
-  width: 1000px;
+  width: 98%;
   margin: auto;
 }
 
@@ -576,4 +682,21 @@ p.testimonial {
   border: solid;
   border-radius: 2em;
   border-color: white;
+}
+
+@media(max-width:900px){
+  .offerings{
+    width: 90%;
+  }
+}
+
+@media(max-width:460px){
+  .offerings{
+    width: 80%;
+    margin-left: 20px;
+  }
+  .point{
+      margin: 2px;
+      padding: 7px;
+  }
 }
