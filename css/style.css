@@ -5,10 +5,6 @@
   font-family: "Exo 2", sans-serif;
 }
 
-/* body {
-  list-style-type: none;
-} */
-
 /* Nav bar */
 nav {  
   width: 100%;
@@ -488,8 +484,7 @@ li.row:nth-child(2):hover {
   color: white;
   min-height: 60vh;
   width: 100%;
-  box-sizing: border-box;  
-  margin-bottom: 0;
+  box-sizing: border-box;
 }
 
 .offerings {
@@ -520,6 +515,8 @@ li.row:nth-child(2):hover {
 @media (max-width: 900px) {
   .offerings {
     width: 90%;
+    grid-template-columns: auto;
+    padding-bottom: 60px;
   }
 }
 
@@ -655,6 +652,7 @@ p.testimonial {
 
 .user .role {
   font-weight: normal;
+  font-size: 1rem;
   margin: 10px 0px;
   font-weight: 300;
 }
@@ -724,6 +722,7 @@ p.testimonial {
   padding: 5px;
   position: relative;
   cursor: pointer;
+  
 }
 
 .our_team .team_member .member_img img {
@@ -756,12 +755,6 @@ p.testimonial {
   align-items: center;
   transform: scale(0);
   transition: all 0.5s ease;
-}
-
-.our_team .team_member .member_img .social_media .item {
-  position: absolute;
-  top: 15%;
-  left: -25px;
 }
 
 .our_team .team_member .member_img .social_media .fab {
