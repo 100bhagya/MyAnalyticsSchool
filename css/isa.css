@@ -193,6 +193,14 @@ h3.isa-heading {
   font-size: 1.7rem;
 }
 
+@media (max-width: 600px) {
+  pay-1,
+  .pay-2,
+  .pay-3 {
+    font-size: 1.3rem;
+  }
+}
+
 .pay-2 {
   font-weight: 400;
 }
