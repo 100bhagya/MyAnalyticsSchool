@@ -23,7 +23,10 @@ nav {
   font-size: 20px;
   font-weight: bold;
 }
-
+.logo a {
+  text-decoration: none;
+  color: rgb(226, 226, 226);
+}
 .nav-links {
   display: flex;
   justify-content: space-around;
@@ -490,7 +493,7 @@ li.row:nth-child(2):hover {
 .offerings {
   display: grid;
   grid-template-columns: auto 40% auto;
-  width: 98%;
+  width: 100%;
   margin: auto;
 }
 
@@ -805,6 +808,20 @@ textarea {
   height: 150px;
 }
 
+@media (max-width: 1100px) {
+  .input-container input, textarea {
+  width: 60%;
+}
+@media (max-width: 768px) {
+  .input-container input, textarea {
+    width: 80%;
+  }
+
+  textarea {
+    height: 100px;
+  }
+}
+}
 .btn {
   margin-left: 5px;
   width: 80px;
@@ -827,6 +844,7 @@ textarea {
   background-color: rgb(88, 86, 86);
   color: white;
 }
+
 
 /* footer */
 footer{	
