@@ -51,3 +51,4 @@ nextBtn.addEventListener('click', () => {
     }
     slides[index].classList.remove('hidden')
 })
+

@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cover-section {
+    width: 100%;
+    min-height: 92vh;
+    background-color: rgb(16, 153, 245);    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.cover-section h1 {    
+    margin-top: 20px;
+    font-size: 3.125rem;    
+    font-weight: 400;
+    color: #7a5d6e;
+}
+
+.cover-section p {
+    width: 60%;
+    text-align: center;
+    font-size: 16px;    
+}
+
+.cover-section img {
+    width: 60%;    
+    height: auto;
+    border-radius: 1em;
+}
+
+.how-isa-works {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.how-isa-works h1 {
+    margin-top: 30px
+}
+
+.isa-explanation {
+    width: 60%;
+    margin: 30px;
+}
+
+.isa-explanation h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.cards-list {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    margin: 30px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  .card .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+  }
+  
+  .card .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+  }
+  
+  .card .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: -40px;
+    height: 40px;    
+    opacity: 0.75;
+    background-color: rgb(5, 5, 5);
+    padding: 5px;
+  }
+  
+  .card:hover, .clicked {
+    transform: scale(1.2, 1.2);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+  }
+  
+  .title-white {
+    color: white;
+  }
+  
+  .title-black {
+    color: black;
+  }
+  
+  @media all and (max-width: 500px) {
+    .card-list {
+      /* On small screens, we are no longer using row direction but column */
+      flex-direction: column;
+    }
+  }
+
+  .val1 {
+      display: block;
+  }
+
+  .val2, .val3, .val4, .val5{
+      display: none;
+  }
+
+  .container {
+    margin: 0 auto;
+    margin-top: 50px;;
+  
+    height: 10vh;
+    background: #F2F2F2;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #fff inset,
+                -1px -1px 2px #fff inset;
+    border-radius: 3px/6px;         
+    width: 30%;
+  }
