@@ -80,14 +80,14 @@ h3.isa-heading {
   text-align: center;
   font-size: 1.8rem;
   margin: 10px 0;
-  font-weight: 400;
-  padding-bottom: 20px;
+  font-weight: 600;
+  padding-bottom: 40px;
   padding-top: 30px;
 }
 
 .isa-explanation p {
   line-height: 2;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   font-family: "Ubuntu", sans-serif;
 }
 
@@ -219,14 +219,30 @@ ul.isa-list {
   font-family: "Ubuntu", sans-serif;
   margin-left: 0;
   position: relative;
+  width: 80%;
+  padding-bottom: 40px;
+}
+
+ul.isa-list li {
+  padding: 10px 0;
+  padding-left: 100px;
+  height: 90px;
+  margin: 5px;
+  background-color: rgba(37, 37, 37, 0.4);
+  color: #fff;
+  border-radius: 50px 0 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 ul.isa-list li::before {
-  content: "\25BA";
-  color: rgba(255, 246, 0, 0.7);
-  z-index: -1;
-  font-size: 45px;
+  content: "\25CF";
+  color: rgba(0, 0, 0, 0.5);
+  /* z-index: -1; */
+  font-size: 150px;
   position: absolute;
+  transform: translate(-100px, -10px);
 }
 
 .underline {
@@ -241,14 +257,26 @@ ul.isa-list li::before {
   background-color: rgba(0, 0, 0, 0.25);
 }
 
+@media (max-width: 1200px) {
+  ul.isa-list {
+    line-height: 1.6;
+    font-size: 1.07rem;
+  }
+}
+
 @media (max-width: 900px) {
   ul.isa-list {
     padding-left: 7rem;
+    line-height: 1.2;
+    font-size: 1rem;
+    width: 85%;
   }
 }
 
 @media (max-width: 460px) {
   ul.isa-list {
-    padding-left: 4rem;
+    padding-left: 1rem;
+    width: 100%;
+    line-height: 1;
   }
 }
