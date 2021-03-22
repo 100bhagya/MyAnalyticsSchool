@@ -5,10 +5,10 @@
 }
 
 .roadmap {
-    background-color: black;
-    background-image: url('../img/roadmap.jpeg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    height: 100vh;
+    text-align: center;
+}
+
+.roadmap img {
+    width: 65%;
+    height: auto;
 }

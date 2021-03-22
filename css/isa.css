@@ -8,7 +8,7 @@
 .cover-section {
   width: 100%;
   min-height: 92vh;
-  background-color: rgb(16, 153, 245);
+  background-color: rgb(20, 39, 78);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -19,8 +19,8 @@
 .cover-section h1 {
   margin-top: 20px;
   font-size: 3.125rem;
-  font-weight: 400;
-  color: #7a5d6e;
+  font-weight: 500;
+  color: #000;
 }
 
 .cover-section p {
@@ -44,8 +44,8 @@
   align-items: center;
   width: 100%;
   height: 100%;
-  padding: 20px auto;
-  margin: 10px auto;
+  padding-top: 7rem;
+  background-color: rgb(20, 39, 78);
 }
 
 .numbered-heading {
@@ -72,23 +72,36 @@
 }
 
 .isa-explanation {
-  width: 60%;
-  margin: 30px;
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  /* padding: 20px; */
+  padding-bottom: 50px;
+  flex-direction: column;
+  align-items: center;
 }
 
 h3.isa-heading {
   text-align: center;
   font-size: 1.8rem;
   margin: 10px 0;
-  font-weight: 400;
-  padding-bottom: 20px;
-  padding-top: 30px;
+  font-weight: 600;
+  padding-bottom: 40px;
+  padding-top: 50px;
+  color: rgba(50, 224, 196, 0.6);
+  text-shadow: 0.5px 0.5px 2px rgba(50, 224, 196, 0.2);
 }
 
 .isa-explanation p {
   line-height: 2;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   font-family: "Ubuntu", sans-serif;
+  width: 60%;
+  color: #fff;
+}
+
+.colored {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .cards-list {
@@ -97,6 +110,7 @@ h3.isa-heading {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  background-color: rgba(20, 39, 78, 0.6);
 }
 
 .card {
@@ -159,11 +173,11 @@ h3.isa-heading {
 }
 
 .payment-container {
-  margin-top: 50px;
-  background: #f2f2f2;
+  margin: 50px;
+  background: rgba(9, 20, 44, 0.6);
   border: 1px solid #ccc;
   box-shadow: 1px 1px 2px #fff inset, -1px -1px 2px #fff inset;
-  border-radius: 3px/6px;
+  border-radius: 2em;
 }
 
 .container {
@@ -191,6 +205,7 @@ h3.isa-heading {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
   font-size: 1.7rem;
+  color: white;
 }
 
 @media (max-width: 600px) {
@@ -219,14 +234,31 @@ ul.isa-list {
   font-family: "Ubuntu", sans-serif;
   margin-left: 0;
   position: relative;
+  width: 80%;
+  padding-bottom: 40px;
+}
+
+ul.isa-list li {
+  padding: 10px 5px;
+  padding-left: 100px;
+  height: 90px;
+  margin: 10px 5px;
+  background-color: rgba(16, 153, 245, 0.4);
+  color: #fff;
+  border-radius: 50px 0 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* box-shadow: 0px 0.2px 2px 2px rgba(136, 136, 136, 0.3); */
 }
 
 ul.isa-list li::before {
-  content: "\25BA";
-  color: rgba(255, 246, 0, 0.7);
-  z-index: -1;
-  font-size: 45px;
+  content: "\25CF";
+  color: rgba(0, 0, 0, 0.5);
+  /* z-index: -1; */
+  font-size: 150px;
   position: absolute;
+  transform: translate(-100px, -10px);
 }
 
 .underline {
@@ -235,20 +267,29 @@ ul.isa-list li::before {
   height: 3px;
   margin: 30px auto;
   background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.25);
 }
 
-.underline.isa-under {
-  background-color: rgba(0, 0, 0, 0.25);
+@media (max-width: 1200px) {
+  ul.isa-list {
+    line-height: 1.6;
+    font-size: 1.07rem;
+  }
 }
 
 @media (max-width: 900px) {
   ul.isa-list {
     padding-left: 7rem;
+    line-height: 1.2;
+    font-size: 1rem;
+    width: 85%;
   }
 }
 
 @media (max-width: 460px) {
   ul.isa-list {
-    padding-left: 4rem;
+    padding-left: 0.5rem;
+    width: 95%;
+    line-height: 1.056;
   }
 }
