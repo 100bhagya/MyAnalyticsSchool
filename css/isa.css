@@ -8,7 +8,7 @@
 .cover-section {
   width: 100%;
   min-height: 92vh;
-  background-color: rgb(16, 153, 245);
+  background-color: rgb(20, 39, 78);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -19,8 +19,8 @@
 .cover-section h1 {
   margin-top: 20px;
   font-size: 3.125rem;
-  font-weight: 400;
-  color: #7a5d6e;
+  font-weight: 500;
+  color: #000;
 }
 
 .cover-section p {
@@ -44,8 +44,8 @@
   align-items: center;
   width: 100%;
   height: 100%;
-  padding: 20px auto;
-  margin: 10px auto;
+  padding-top: 7rem;
+  background-color: rgb(20, 39, 78);
 }
 
 .numbered-heading {
@@ -72,8 +72,13 @@
 }
 
 .isa-explanation {
-  width: 60%;
-  margin: 30px;
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  /* padding: 20px; */
+  padding-bottom: 50px;
+  flex-direction: column;
+  align-items: center;
 }
 
 h3.isa-heading {
@@ -82,13 +87,21 @@ h3.isa-heading {
   margin: 10px 0;
   font-weight: 600;
   padding-bottom: 40px;
-  padding-top: 30px;
+  padding-top: 50px;
+  color: rgba(50, 224, 196, 0.6);
+  text-shadow: 0.5px 0.5px 2px rgba(50, 224, 196, 0.2);
 }
 
 .isa-explanation p {
   line-height: 2;
   font-size: 1.4rem;
   font-family: "Ubuntu", sans-serif;
+  width: 60%;
+  color: #fff;
+}
+
+.colored {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .cards-list {
@@ -97,6 +110,7 @@ h3.isa-heading {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  background-color: rgba(20, 39, 78, 0.6);
 }
 
 .card {
@@ -159,8 +173,8 @@ h3.isa-heading {
 }
 
 .payment-container {
-  margin-top: 50px;
-  background: #f2f2f2;
+  margin: 50px;
+  background: rgba(9, 20, 44, 0.6);
   border: 1px solid #ccc;
   box-shadow: 1px 1px 2px #fff inset, -1px -1px 2px #fff inset;
   border-radius: 3px/6px;
@@ -224,16 +238,17 @@ ul.isa-list {
 }
 
 ul.isa-list li {
-  padding: 10px 0;
+  padding: 10px 5px;
   padding-left: 100px;
   height: 90px;
-  margin: 5px;
-  background-color: rgba(37, 37, 37, 0.4);
+  margin: 10px 5px;
+  background-color: rgba(16, 153, 245, 0.4);
   color: #fff;
   border-radius: 50px 0 0 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  /* box-shadow: 0px 0.2px 2px 2px rgba(136, 136, 136, 0.3); */
 }
 
 ul.isa-list li::before {
@@ -251,9 +266,6 @@ ul.isa-list li::before {
   height: 3px;
   margin: 30px auto;
   background-color: #fff;
-}
-
-.underline.isa-under {
   background-color: rgba(0, 0, 0, 0.25);
 }
 
@@ -275,8 +287,8 @@ ul.isa-list li::before {
 
 @media (max-width: 460px) {
   ul.isa-list {
-    padding-left: 1rem;
-    width: 100%;
-    line-height: 1;
+    padding-left: 0.5rem;
+    width: 95%;
+    line-height: 1.056;
   }
 }
