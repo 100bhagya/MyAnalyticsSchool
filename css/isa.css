@@ -8,12 +8,12 @@
 .cover-section {
   width: 100%;
   min-height: 92vh;
-  background-color: rgb(20, 39, 78);
+  background-image: linear-gradient(to right, lightblue, lightgray);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  color: white;
+  color: black;
 }
 
 .cover-section h1 {
@@ -44,8 +44,10 @@
   align-items: center;
   width: 100%;
   height: 100%;
-  padding-top: 7rem;
-  background-color: rgb(20, 39, 78);
+  /* padding-top: 7rem; */
+  /* background-color: rgb(20, 39, 78); */
+  background-image: linear-gradient(to right, lightblue, lightgray);
+  color: white;
 }
 
 .numbered-heading {
@@ -69,6 +71,7 @@
   font-size: 3.125rem;
   font-weight: 500;
   text-align: center;
+  color: black;
 }
 
 .isa-explanation {
@@ -87,8 +90,9 @@ h3.isa-heading {
   margin: 10px 0;
   font-weight: 600;
   padding-bottom: 40px;
-  padding-top: 50px;
-  color: rgba(50, 224, 196, 0.6);
+  /* padding-top: 50px; */
+  /* color: rgba(50, 224, 196, 0.6); */
+  color: black;
   text-shadow: 0.5px 0.5px 2px rgba(50, 224, 196, 0.2);
 }
 
@@ -101,7 +105,8 @@ h3.isa-heading {
 }
 
 .colored {
-  background-color: rgba(0, 0, 0, 0.2);
+  /* background-color: rgba(0, 0, 0, 0.2); */
+  color: black;
 }
 
 .cards-list {
@@ -110,7 +115,9 @@ h3.isa-heading {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: rgba(20, 39, 78, 0.6);
+  /* background-color: rgba(20, 39, 78, 0.6); */
+  /* background-color: white; */
+  background-image: linear-gradient(to right, lightblue, lightgray);
 }
 
 .card {
@@ -174,10 +181,12 @@ h3.isa-heading {
 
 .payment-container {
   margin: 50px;
-  background: rgba(9, 20, 44, 0.6);
+  /* background: rgba(9, 20, 44, 0.6); */
+  /* background-color: gray; */
   border: 1px solid #ccc;
   box-shadow: 1px 1px 2px #fff inset, -1px -1px 2px #fff inset;
   border-radius: 2em;
+  background-image: linear-gradient(to right, black , gray);
 }
 
 .container {
@@ -205,7 +214,6 @@ h3.isa-heading {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
   font-size: 1.7rem;
-  color: white;
 }
 
 @media (max-width: 600px) {
@@ -225,7 +233,10 @@ span {
 }
 
 /************* ISA LIST  ***********/
+.gen-info-isa {
+  margin: 0 auto;
 
+}
 ul.isa-list {
   list-style-type: circle;
   line-height: 2;
@@ -243,8 +254,9 @@ ul.isa-list li {
   padding-left: 100px;
   height: 90px;
   margin: 10px 5px;
-  background-color: rgba(16, 153, 245, 0.4);
-  color: #fff;
+  /* background-color: rgba(16, 153, 245, 0.4); */
+  background-image: linear-gradient(to right, lightgray, white );
+  color: black;
   border-radius: 50px 0 0 50px;
   display: flex;
   flex-direction: column;
