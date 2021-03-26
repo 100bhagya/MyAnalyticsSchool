@@ -5,6 +5,7 @@
 
    body {
     background-image: linear-gradient(to left, lightgray, lightblue);
+    margin-top: 10vh;
    }
 
    .mentor-section {
@@ -82,14 +83,17 @@
         text-align: center;
         font-size: 40px;
         margin: 30px;
+        color: black;
    }
 
-   .mentor-intro ul {
+   .mentor-intro ol {
         width: 60%;
-        margin: auto;
-        list-style: none;
+        margin: auto;        
    }
 
    .mentor-intro li {
+       font-size: 18px;
        margin: 10px;
+       padding-left: 10px;
+       padding-bottom: 5px;
    }

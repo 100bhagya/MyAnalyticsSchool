@@ -15,3 +15,7 @@
     width: 50%;
     height: auto;
 }
+
+body {
+    margin-top: 8vh;
+}

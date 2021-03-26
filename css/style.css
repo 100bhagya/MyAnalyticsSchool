@@ -4,7 +4,9 @@
   box-sizing: border-box;
   font-family: "Exo 2", sans-serif;
 }
-
+body {
+  margin-top: 8vh;
+}
 /* Nav bar */
 nav {  
   position: fixed;
@@ -15,6 +17,7 @@ nav {
   min-height: 8vh;  
   background-color: #054A91;
   z-index: 20;
+  top: 0;
 }
 
 .logo {
@@ -78,8 +81,12 @@ nav {
 
 @media screen and (max-width: 768px) {
   body {
-    overflow-x: hidden;
+    overflow-x: hidden;    
     /* position: fixed;  */
+  }
+
+  .xyz {
+    overflow: hidden;
   }
 
   .nav-links {
@@ -588,10 +595,10 @@ h1.testimonial-heading {
   position: relative;
 }
 
-.testimonial-container {
-  /* background-color: #476ce4; */
-  background-image: linear-gradient(to left, red, blue);
-  color: #fff;
+.testimonial-container {  
+  background-image: linear-gradient(to right, rgb(18, 241, 47), rgb(167, 247, 167));
+  color: black;
+  font-weight: bold;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -845,6 +852,7 @@ textarea {
   outline: none;
   width: 65%;
   border-radius: 1em;
+  border: solid 2px blue;
   padding: 10px;
   margin-bottom: 10px;
   background: #eee;
