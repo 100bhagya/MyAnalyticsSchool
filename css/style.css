@@ -75,14 +75,13 @@ nav {
 
 @media screen and (max-width: 1024px) {
   .nav-links {
-    width: 30%;
+    width: 45%;
   }
 }
 
 @media screen and (max-width: 768px) {
   body {
-    overflow-x: hidden;    
-    /* position: fixed;  */
+    overflow-x: hidden;  
   }
 
   .xyz {
@@ -98,6 +97,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content:flex-start;
     width: 50%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
@@ -106,6 +106,7 @@ nav {
 
   .nav-links li {
     opacity: 0;
+    margin: 20px;
   }
 
   .burger {
@@ -214,7 +215,6 @@ nav {
 .container1 {
   padding: 30px;
   width: 100%;
-  /* background-color: #f6f5f5; */
   background-color: lightgray;
   min-height: 50vh;
 }
@@ -232,6 +232,7 @@ nav {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   padding: 20px;
+  /* width: 100%; */
   
 }
 
@@ -344,6 +345,7 @@ li.row:nth-child(2):hover {
   li.row:nth-child(n) {
     margin: 10px;
     padding: 10px;
+    border-radius: 1em;
   }
   li.row:nth-child(1) {
     transform: translateX(0);
@@ -383,7 +385,8 @@ li.row:nth-child(2):hover {
   }
 
   .face {
-    margin-right: 30px;
+    /* margin-right: 30px; */
+    margin: auto;
   }
 }
 
@@ -864,7 +867,7 @@ textarea {
   outline: none;
   width: 65%;
   border-radius: 1em;
-  border: solid 2px blue;
+  border: solid 2px #054A91;
   padding: 10px;
   margin-bottom: 10px;
   background: #eee;

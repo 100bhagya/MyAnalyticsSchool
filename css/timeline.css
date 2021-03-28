@@ -94,7 +94,7 @@ nav {
     background-color: #054A91;    
     display: flex;
     flex-direction: column;
-    
+    justify-content: flex-start;
     align-items: center;
     width: 50%;
     transform: translateX(100%);
@@ -104,6 +104,7 @@ nav {
 
   .nav-links li {
     opacity: 0;
+    margin: 20px;
   }
 
   .burger {
@@ -139,7 +140,12 @@ nav {
   transform: rotate(45deg) translate(-5px, -6px);
 }
 /* timeline */
-
+.main h1 {
+  text-align: center;
+        font-size: 40px;
+        /* margin: 30px; */
+        color: black;
+}
 .accordion-button {
   background-color: lightgray;
 }
@@ -234,7 +240,6 @@ nav {
     right: 0px;
     margin-left: -25px;
     background-color: #999999;
-    z-index: 100;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
     border-bottom-right-radius: 50%;
