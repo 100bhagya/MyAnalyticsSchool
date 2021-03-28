@@ -97,7 +97,6 @@ nav {
     background-color: #054A91;    
     display: flex;
     flex-direction: column;
-    
     align-items: center;
     width: 50%;
     transform: translateX(100%);
@@ -264,7 +263,7 @@ li.row {
   font-size: 1.4375rem;
   font-weight: 400;
   cursor: default;
-  padding: 10px 20px 10px 40px;  
+  padding: 10px 20px 10px 40px;
   transform: scale(1);
   transition: transform 0.2s ease-in-out, padding 0.2s ease-in-out;
   text-align: center;
@@ -290,7 +289,7 @@ li.row:nth-child(3) {
 
 li.row:hover {
   transform: scale(1.1);
-  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.3);  
+  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.3);
 }
 
 li.row:nth-child(2):hover {
@@ -304,7 +303,7 @@ li.row:nth-child(2):hover {
   }
   li.row:hover {
     transform: scale(1.1);
-    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.3);    
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.3);
   }
 }
 
@@ -315,7 +314,7 @@ li.row:nth-child(2):hover {
   }
   .wwd-list {
     width: 90%;
-  }  
+  }
 
   img.list-img {
     height: 220px;
@@ -332,7 +331,6 @@ li.row:nth-child(2):hover {
 }
 
 @media (max-width: 768px) {
-
   .list-img {
     display: none;
   }
@@ -354,8 +352,8 @@ li.row:nth-child(2):hover {
     transform: translateX(0);
   }
 
-  li.row:hover {    
-    transform: scale(1.1);    
+  li.row:hover {
+    transform: scale(1.1);
   }
 }
 /******************* How it works ******************/
@@ -395,7 +393,7 @@ li.row:nth-child(2):hover {
   justify-content: space-around;
   margin: 10px auto 30px auto;
   padding: 0 9.375rem;
-  align-items: center;  
+  align-items: center;
 }
 
 @media (max-width: 1024px) {
@@ -555,7 +553,7 @@ li.row:nth-child(2):hover {
 @media (max-width: 460px) {
   .offerings {
     width: 80%;
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
   .point {
     margin: 2px;
@@ -720,10 +718,25 @@ p.testimonial {
     max-width: 400px;
     border-radius: 0;
     padding: 0 20px;
+    height: 32rem;
   }
   .fa-arrow {
     font-size: 35px;
     top: calc(80% - 30px);
+  }
+}
+
+@media (max-width: 380px) {
+  .testimonial-container {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  p.testimonial {
+    line-height: 18px;
+  }
+  .fa-arrow {
+    top: calc(95% - 30px);
   }
 }
 
@@ -757,7 +770,6 @@ p.testimonial {
   padding: 5px;
   position: relative;
   cursor: pointer;
-  
 }
 
 .our_team .team_member .member_img img {
@@ -863,18 +875,20 @@ textarea {
 }
 
 @media (max-width: 1100px) {
-  .input-container input, textarea {
-  width: 60%;
-}
-@media (max-width: 768px) {
-  .input-container input, textarea {
-    width: 80%;
-  }
-
+  .input-container input,
   textarea {
-    height: 100px;
+    width: 60%;
   }
-}
+  @media (max-width: 768px) {
+    .input-container input,
+    textarea {
+      width: 80%;
+    }
+
+    textarea {
+      height: 100px;
+    }
+  }
 }
 .btn {
   margin-left: 5px;
@@ -899,7 +913,6 @@ textarea {
   color: white;
 }
 
-
 /* footer */
 footer{	
 	bottom: 0;  
@@ -914,10 +927,10 @@ footer{
 	text-align: left;
 	font: bold 16px sans-serif;
   min-height: 25vh;
-	padding: 55px 50px;
-	margin-top: 0;
+  padding: 55px 50px;
+  margin-top: 0;
 }
- 
+
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
 .footer-distributed .footer-right{
@@ -1043,29 +1056,25 @@ footer{
 	margin-bottom: 5px;
 }
  
- 
 @media (max-width: 880px) {
- 
-	.footer-distributed{
-		font: bold 14px sans-serif;
-	
-	}
- 
-	.footer-distributed .footer-left,
-	.footer-distributed .footer-center,
-	.footer-distributed .footer-right{
-		display: block;
-		width: 100%;
-		margin-bottom: 40px;
-		text-align: center;
-	}
- 
-	.footer-distributed .footer-center i{
-		margin-left: 0;
-	}
-	.main {
-		line-height: normal;
-		font-size: auto;
-	}
- 
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+  .main {
+    line-height: normal;
+    font-size: auto;
+  }
 }

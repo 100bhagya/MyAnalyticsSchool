@@ -218,6 +218,13 @@ h3.isa-heading {
   font-size: 1.7rem;
 }
 
+.pay-2 {
+  font-weight: 400;
+}
+
+span {
+  font-family: "Ranchers", cursive;
+}
 @media (max-width: 600px) {
   pay-1,
   .pay-2,
@@ -226,24 +233,43 @@ h3.isa-heading {
   }
 }
 
-.pay-2 {
-  font-weight: 400;
+@media (max-width: 460px) {
+  .container {
+    width: 350px;
+  }
+  .pay-1,
+  .pay-2,
+  .pay-3 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
 }
 
-span {
-  font-family: "Ranchers", cursive;
+@media (max-width: 320px) {
+  .container {
+    width: 300px;
+    border-radius: none;
+  }
+  .pay-1,
+  .pay-2,
+  .pay-3 {
+    font-size: 1rem;
+  }
 }
 
 /************* ISA LIST  ***********/
 .gen-info-isa {
   margin: 0 auto;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 ul.isa-list {
   list-style-type: circle;
   line-height: 2;
   font-size: 1.1rem;
-  padding-left: 200px;
+  /* padding-left: 200px; */
   font-family: "Ubuntu", sans-serif;
   margin-left: 0;
   position: relative;
@@ -302,11 +328,32 @@ ul.isa-list li::before {
 
 @media (max-width: 460px) {
   ul.isa-list {
-    padding-left: 0.5rem;
+    /* padding-left: 0.5rem; */
+    width: 98%;
+    line-height: 1.056;
+    font-size: 0.88rem;
+  }
+  ul.isa-list li::before {
+    /* font-size: 120px; */
+    transform: translate(-85px, -10px);
+  }
+  ul.isa-list li {
+    padding-left: 80px;
+    height: 95px;
+  }
+}
+
+@media (max-width: 320px) {
+  ul.isa-list li {
+    height: 100px;
+  }
+}
+/*     padding-left: 0.5rem;
     width: 95%;
     line-height: 1.056;
   }
-}
+} */
+
 /* faq */
 h1 {
   margin: 50px 0 30px;
@@ -316,7 +363,6 @@ h1 {
 .faq-container {
   max-width: 1000px;
   margin: 0 auto;
-
 }
 
 .faq {
@@ -404,4 +450,5 @@ h1 {
 
 .faq.active .faq-toggle {
   background-color: #9fa4a8;
+
 }
