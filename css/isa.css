@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Merriweather:wght@300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Ranchers&family=Roboto:wght@100;300;400;500;700;900&family=Ubuntu:wght@300;400;500;700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Merriweather:wght@300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Ranchers&family=Roboto:wght@100;300;400;500;700;900&family=Ubuntu:wght@300;400;500;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -19,14 +19,10 @@ body {
 }
 
 .cover-section h1 {
-  /* margin-top: 20px;
+  margin-top: 20px;
   font-size: 3.125rem;
   font-weight: 500;
-  color: #000; */
-  text-align: center;
-  font-size: 40px;
-  margin: 30px;
-  color: black;
+  color: #000;
 }
 
 .cover-section p {
@@ -226,9 +222,9 @@ h3.isa-heading {
   font-weight: 400;
 }
 
-/* span {
+span {
   font-family: "Ranchers", cursive;
-} */
+}
 @media (max-width: 600px) {
   pay-1,
   .pay-2,
@@ -446,22 +442,4 @@ h1 {
 
 .faq.active .faq-toggle {
   background-color: #9fa4a8;
-}
-
-@media (max-width: 1200px) {
-  .cover-section p, .cover-section img {
-    width: 70%;
-  }
-}
-
-@media (max-width: 900px) {
-  .cover-section p, .cover-section img {
-    width: 80%;
-  }
-}
-
-@media (max-width: 768px) {
-  .cover-section p, .cover-section img {
-    width: 90%;
-  }
 }

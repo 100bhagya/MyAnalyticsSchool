@@ -19,24 +19,3 @@
 body {
     margin-top: 8vh;
 }
-
-@media (max-width: 1024px) {
-    .roadmap img {
-        width: 60%;
-    }
-}
-
-@media (max-width: 768px) {
-    .roadmap img {
-        width: 80%;
-    }
-}
-
-@media (max-width: 500px) {
-    .roadmap img {
-        width: 100%;
-        margin-top: 8px;
-    }
-}
-
-
