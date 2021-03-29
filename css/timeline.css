@@ -95,7 +95,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: center;  
     width: 50%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
@@ -140,12 +140,7 @@ nav {
   transform: rotate(45deg) translate(-5px, -6px);
 }
 /* timeline */
-.main h1 {
-  text-align: center;
-        font-size: 40px;
-        /* margin: 30px; */
-        color: black;
-}
+
 .accordion-button {
   background-color: lightgray;
 }
@@ -239,7 +234,7 @@ nav {
     top: 16px;
     right: 0px;
     margin-left: -25px;
-    background-color: #999999;
+    background-color: #999999;  
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -455,4 +450,40 @@ footer{
 		font-size: auto;
 	}
  
+}
+
+.accordion{
+  margin: 5px!important
+}
+
+.accordion-button{
+  padding: 0.75rem 1rem!important
+}
+
+@media (max-width: 450px){
+  .timeline > li > .timeline-panel {
+    width: calc( 100%);
+  }
+  .timeline:before {
+    top: 0;
+    bottom: 0;
+    display: none;
+    content: " ";
+    width: 0px;
+   
+  }
+  .timeline-badge{
+    display: none;
+  }
+  .timeline > li > .timeline-panel:after {
+    position: absolute;
+    top: 27px;
+    right: -14px;
+    display: none;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #fff;
+    border-right: 0 solid #fff;
+    border-bottom: 14px solid transparent;
+    content: " ";
+  }
 }
