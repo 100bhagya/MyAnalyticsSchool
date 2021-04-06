@@ -6,7 +6,7 @@ function navSlide() {
     burger.addEventListener("click", () => {
         //Toggle Nav
         nav.classList.toggle("nav-active");
-        body.classList.toggle("xyz");
+        body.classList.toggle("scroll");
 
 
         //Animate Links
