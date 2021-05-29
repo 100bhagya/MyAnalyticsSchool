@@ -8,7 +8,7 @@ function navSlide() {
         nav.classList.toggle("nav-active");
         body.classList.toggle("scroll");
 
-
+        
         //Animate Links
         navLinks.forEach((link, index) => {
             if (link.style.animation) {
