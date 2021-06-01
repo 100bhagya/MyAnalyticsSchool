@@ -194,18 +194,26 @@ body {
   width:100%;
   display: flex;
 }
+
 .offer-image{
-  width:40%;
+  width: 50%; 
   z-index: -1; 
   display: flex;
   align-items: center;
-  justify-content: center;
+  
 }
 .offer-image img{
-  width:100%;
+  width:80%;
   height:auto;
-  margin-top:30%;
+  margin-top:12%;
+  margin-left:0;
 }
+
+
+
+
+
+
 .test-offer-list{
   width: 60%;
   height: 90vh;
@@ -227,14 +235,15 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 auto;
+  margin: 0 5% 0 15%;
 }
 .test-offer h3 {
   height: 4vh;
-  width: 100%;
+  width: 80%;
   color: #3d3b3b;
   font-weight:500;
   margin-top: 10px;
+  margin-left:20%;
   display: flex;
   flex-direction: column;
   justify-content: center;
