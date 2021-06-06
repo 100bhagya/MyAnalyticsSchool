@@ -25,7 +25,7 @@ nav {
 .nav-links {
   display: flex;
   justify-content: space-around;
-  width: 30%;
+  width: 40%;
   font-weight: bold;
   background-color: #054a91;
 }
@@ -60,13 +60,13 @@ nav {
 
 @media screen and (max-width: 1400px) {
   .nav-links {
-    width: 40%;
+    width: 50%;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .nav-links {
-    width: 45%;
+    width: 60%;
   }
 }
 
