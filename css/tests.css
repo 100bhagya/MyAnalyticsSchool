@@ -51,7 +51,6 @@ body {
   width: 100%;
   height: 40px;
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
   margin-top: 10px;
@@ -66,13 +65,13 @@ body {
 }
 
 .test h3 a {
-  color: #3d3b3b;
+  color: #054a91;
   text-decoration: none;
   font-weight: 500;
 }
 
 .test :hover {
-  color: #054a91;
+  color: #3d3b3b;
 }
 
 .test-underline {
