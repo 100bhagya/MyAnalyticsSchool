@@ -249,7 +249,7 @@ body {
 @media (max-width: 704px) {
   .test-container {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     height: 90vh;
   }
 
