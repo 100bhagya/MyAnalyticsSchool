@@ -8,6 +8,16 @@
 body {
   margin-top: 8vh;
 }
+.main-section{
+  width:70%;
+  margin:0 auto;
+  background-image: linear-gradient(to left, lightgray, rgb(186, 220, 231));
+}
+@media (max-width:940px){
+  .main-section{
+    width:100%;
+  }
+}
 
 /* Nav bar */
 nav {

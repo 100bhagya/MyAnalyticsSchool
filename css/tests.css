@@ -9,7 +9,7 @@
 
 body {
   margin-top: 8vh;
-  background-image: linear-gradient(to left, lightgray, rgb(186, 220, 231));
+  background-color:#fff;
 }
 
 .test-container {
