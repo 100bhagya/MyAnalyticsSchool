@@ -1,6 +1,5 @@
 /*FINAL CHANGES DONE*/
 
-
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +8,7 @@
 
 body {
   margin-top: 8vh;
-  background-color:#fff;
+  background-color: rgb(79 98 74);
 }
 
 .test-container {
@@ -248,7 +247,7 @@ body {
 @media (max-width: 704px) {
   .test-container {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     height: 90vh;
   }
 
@@ -269,9 +268,9 @@ body {
   .test-links .test-underline {
     margin-bottom: 0.9%;
   }
-    .test-links{
-      margin-top: 5px;
-    }
+  .test-links {
+    margin-top: 5px;
+  }
   .test-links h2 {
     font-size: 7vw;
   }
@@ -282,8 +281,8 @@ body {
 }
 
 @media (max-width: 704px) {
-
-  .text-video {                   /**************************************/
+  .text-video {
+    /**************************************/
     height: 100vw;
     margin-top: 0;
     margin-bottom: 5vw;
@@ -308,8 +307,6 @@ body {
     height: 100%;
   }
 
-  
-
   .c1-video {
     margin-top: 8vw;
   }
@@ -318,16 +315,13 @@ body {
     font-size: 4vw;
     width: 80%;
   }
-
 }
 
 @media (max-width: 704px) {
-
   .test-offer-container {
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 8vw;                                 /***************/
-    
+    margin-top: 8vw; /***************/
   }
 
   .offer-image {
@@ -365,38 +359,33 @@ body {
     margin-left: 0;
     margin-right: 0;
   }
- 
+
   .test-offer-list .test-underline {
     margin-bottom: 3%;
   }
-  @media (max-width:400px)
-{
-  .text-video {
-    height: 140vw;
-    margin-bottom: 3vw;
-  }
-  .test-offer-container{
-    height:150vw;
-  }
-  .offer-image{
-    margin-top:0;
-    margin-bottom: 5vw;
-  }
-  .offer-image img {
-    height: 60vw;
-  }
-  .test-offer-list {
-   
-    height: 90vw;
-   
-  }
-  .c-video h2 {
-   
-    font-size: 7vw;
-    margin-bottom: 0;
-    
-  }
-  /*.test-offer-container{
+  @media (max-width: 400px) {
+    .text-video {
+      height: 140vw;
+      margin-bottom: 3vw;
+    }
+    .test-offer-container {
+      height: 150vw;
+    }
+    .offer-image {
+      margin-top: 0;
+      margin-bottom: 5vw;
+    }
+    .offer-image img {
+      height: 60vw;
+    }
+    .test-offer-list {
+      height: 90vw;
+    }
+    .c-video h2 {
+      font-size: 7vw;
+      margin-bottom: 0;
+    }
+    /*.test-offer-container{
   }*/
-}
+  }
 }
