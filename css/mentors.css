@@ -42,7 +42,7 @@ body {
 }
 
 .card-background {
-  background: linear-gradient(to right, #009688, #054d91);
+  background: linear-gradient(to right, #009688, #4caf50);
   height: 120px;
   width: 100%;
   border-top-left-radius: 10px;
