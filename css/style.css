@@ -9,6 +9,18 @@ body {
   margin-top: 8vh;
 }
 
+.main-section {
+  width: 80%;
+  margin: 0 auto;
+  background-image: linear-gradient(to left, lightblue, white, lightblue);
+}
+
+@media (max-width: 940px) {
+  .main-section {
+    width: 100%;
+  }
+}
+
 /* Nav bar */
 nav {
   position: fixed;
