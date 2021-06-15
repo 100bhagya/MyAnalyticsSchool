@@ -12,7 +12,7 @@ body {
 .main-section {
   width: 80%;
   margin: 0 auto;
-  background-image: linear-gradient(to left, lightgray, lightblue);
+  background-image: linear-gradient(to left, lightblue, white, lightblue);
 }
 
 @media (max-width: 940px) {
