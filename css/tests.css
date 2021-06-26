@@ -389,3 +389,26 @@ body {
   }*/
   }
 }
+
+.button {
+  background-color: #0065af;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.test-website-link {
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #054a91;
+}
