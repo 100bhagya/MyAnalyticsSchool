@@ -1,14 +1,26 @@
+.main{
+    width:100%;
+    height:auto;
+    background-image: linear-gradient(to left, lightblue, white, lightblue);
+}
 .courses{
     width:90%;
     height:100vh;
-    padding:5vw 0;
+    padding:8% 0;
    margin:0 5% 0 5%;
+}
+.heading-c{
+    padding-top:5%;
+    text-align: center;
+    font-size:2.5vw;
 }
 .courses-grid{
   
     display: grid;
     grid-template-columns: auto auto auto;
 }
+
+
 .course{
     /*height:35vw;*/
     /*background-color:crimson;
@@ -17,6 +29,27 @@
      margin:0 1vw;
      display:flex;
     flex-direction: column;
+}
+@media (max-width:988px)
+{
+    .courses{
+        width:90%;
+        height:160vh;
+       padding:8% 0;
+       margin:0 5% 0 5%;
+    }
+    .course{
+       width:40%;
+      margin:0 auto 5% auto;
+    }
+    .courses-grid{
+        grid-template-columns: auto;
+    }
+    .heading-c{
+        padding-top:5%;
+        text-align: center;
+        font-size:3vw;
+    }
 }
 .course-outer{
     width:100%;
@@ -70,7 +103,7 @@ ul li{
     margin-top:2%;
 }
 .course-content-inside2{
-    flex:1 1 auto;
+   /* flex:1 1 auto;*/
     display:flex;
     flex-direction: column;
    /* height:19%;*/
@@ -85,7 +118,7 @@ ul li{
     color:grey;
 }
 .details{
-    flex:1 1 auto;
+   /* flex:1 1 auto;*/
     width:100%;
     margin-top:2%;
     display:flex;
@@ -121,3 +154,72 @@ ul li{
        text-align: center;
       color:rgb(58, 231, 81)
   }
+@media (max-width:870px)
+{
+    .course{
+        width:50%;
+    }
+    .heading-c{
+        padding-top:5%;
+        text-align: center;
+        font-size:3.5vw;
+    }
+}
+@media (max-width:650px)
+{
+    .course{
+        width:60%;
+    }
+    .heading-c{
+        padding-top:5%;
+        text-align: center;
+        font-size:4vw;
+    }
+}
+@media (max-width:530px)
+{
+    .course{
+        width:70%;
+    }
+    .heading-c{
+        padding-top:5%;
+        text-align: center;
+        font-size:4.4vw;
+    }
+    .course-content h3{
+        font-size: 4.5vw;
+    }
+}
+@media (max-width:455px)
+{
+    .course{
+        width:80%;
+    }
+    .heading-c{
+        padding-top:5%;
+        text-align: center;
+        font-size:5vw;
+    }
+}
+@media (max-width:380px)
+{
+    .course{
+        width:90%;
+    }
+    .heading-c{
+        padding-top:5%;
+        text-align: center;
+        font-size:6vw;
+    }
+}
+@media (max-width:350px)
+{
+    .course{
+        width:100%;
+    }
+    .heading-c{
+        padding-top:5%;
+        text-align: center;
+        font-size:6vw;
+    }
+}

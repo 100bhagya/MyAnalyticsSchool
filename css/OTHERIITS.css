@@ -1,6 +1,7 @@
 body{
-    padding-top: 65px; 
+    /*padding-top: 65px; */
 }
+
 .details{
     display: flex;
     justify-content: center;
@@ -19,13 +20,15 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
- margin-bottom:1.5%;
+ padding-bottom:1.5%;
+ margin-bottom: 0;;
 }
 .details-mentor{
   flex:1 1 auto;
   width:100%;
-  margin-top:2%;
+  margin-top:0;
   display:flex;
+  background-color: #a2b9cf;;
   
  /* height:auto;*/
 }
@@ -44,6 +47,9 @@ body{
     margin: 0;
     cursor: pointer;
     border-radius: .5vw;
+  }
+  .test-offer-container{
+    background-color: lightgray;
   }
   .imageiitbhu{
       width:100%;
@@ -80,17 +86,101 @@ body{
 
   }
 
+@media (max-width:1100px)
+{
+   .test-offer-container{
+     height: 40vw;
+   }
+   .offer-image img{
+     width:100%;
+     margin-top:9%;
+   }
+}
+@media (max-width:850px)
+{
+   .test-offer-container{
+     height: 50vw;
+   }
+   .offer-image img{
+     width:100%;
+     margin-top:9%;
+   }
+}
+
+@media (max-width:704px)
+{
+   .test-offer-container{
+    /*margin-top:60%;*/
+    height:40vw;
+    margin-top: 0;
+   }
+   .offer-image img{
+     display: none;
+     width:65%;
+     margin-top:9%;
+   }
+   .container1{
+     height:100vh;
+     flex-direction: column;
+   }
+}
+@media (max-width:585px)
+{
+   .test-offer-container{
+     height: 45vw;
+   }
+}
+@media (max-width:519px)
+{
+   .test-offer-container{
+     height: 50vw;
+   }
+}
+@media (max-width:463px)
+{
+   .test-offer-container{
+     height: 55vw;
+   }
+}
+@media (max-width:425px)
+{
+   .test-offer-container{
+     height: 58vw;
+   }
+}
+@media (max-width:400px)
+{
+   .test-offer-container{
+     height: 65vw;
+   }
+}
+@media (max-width:385px)
+{
+   .test-offer-container{
+     height: 68vw;
+   }
+}
+ .h33{
+    text-align: center;
+    font-size:35.1px;
+    font-weight: 400;
+    margin-bottom:1%;
+  }
   #container2-heading{
     font-size:38px;
     font-weight: 500;
   }
   .c-mentors{
-    margin-top: 10px;
+    margin-top: 0;
       text-align: center;
       font-size:30px;
+      background-color: #a2b9cf;
+  }
+  .mentor-section{
+    background-color: #a2b9cf;
   }
   .c-isa{
-    margin-top: ;
+    
     text-align: center;
     font-size:30px;
     background-color: lightgray;
@@ -115,7 +205,7 @@ body{
     
 }
   .heading4{
-     padding-top:40px;
+     padding-top:20px;
      padding-bottom:20px;
      font-weight: 500;
   }
@@ -123,20 +213,20 @@ body{
     padding: 0;
     width: 100%;
     background-color: lightgray;
-    height:55vh;
+    height:52vh;
     min-height: 50vh;
     display:flex;
   }
   .isa-left{
-      width:50%;
-      height:100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
+    width:50%;
+    height:95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
   .isa-right{
     width:50%;
-    height:100%;}
+    height:95%;}
 
   .isa-right img{
      height:100%;
@@ -155,6 +245,23 @@ body{
     font-size: 25px;
     color:black;
  }
+  @media (max-width:704px)
+{
+   .container1{
+     height:95vh;
+     flex-direction: column-reverse;
+     justify-content: center;
+   }
+   .isa-left{
+     width:70%;
+     margin:0 13% 0 17%;
+   }
+   .isa-right{
+    margin:0 auto;
+  }
+}
+
+
  .d1{
      background-color:lightgray;
      margin-top: 0;
@@ -176,3 +283,111 @@ body{
            display: none !important;
        }
 }
+@media (max-width:704px)
+{
+  .button{
+    padding: 1.5vw 2vw;
+    height: 6vw;
+    font-size:3vw;
+  }
+  .imageiitbhu{
+    height:50vw;
+  }
+  .imageiitbhu img{
+    height: 100%;
+
+  }
+  .imageiitbhu h3{
+    top:40%;
+    font-size: 5vw;
+  }
+  .imageiitbhu h5{
+    top:53%;
+    font-size: 2vw;
+  }
+  .iit-bhu-details{
+    top:65%;
+  }
+
+}
+
+@media (max-width:650px){
+    /*.test-offer-container{
+      padding-top:75%;
+    }*/
+    .isa-right{
+      width:60%;
+    }
+    
+}
+@media (max-width:600px)
+{
+  .imageiitbhu h3{
+    top:35%;
+    font-size: 5vw;
+  }
+  .imageiitbhu h5{
+    top:49%;
+    font-size: 2.5vw;
+  }
+  .iit-bhu-details{
+    top:65%;
+  }
+}
+
+
+@media (max-width:370px)
+{
+  /*.test-offer-container{
+    padding-top:100%;
+  }*/
+  .imageiitbhu h3{
+    top:40%;
+    font-size: 7vw;
+  }
+  .imageiitbhu h5{
+    top:57%;
+    font-size: 3vw;
+  }
+  .iit-bhu-details{
+    top:73%;
+  }
+}/*
+@media (max-width:340px)
+{
+  .test-offer-container{
+    padding-top:105%;
+  }
+}
+@media (max-width:318px)
+{
+  .test-offer-container{
+   padding-top:110%;
+  }
+}*/
+
+@media (min-width:1100px){
+  .test-offer{
+    margin-right:0;
+    margin-left:20%;
+  }
+  #offers h3{
+    padding-left:10%;
+  }
+  .test-offer h3{
+    font-size: 22px;
+  }
+}
+@media (max-width:500px)
+{
+  /*#offers h1{
+    font-size: 7vw;
+    }*/
+}/*
+@media (min-width:900px)
+{
+  .main{
+    width:80%;
+    margin:0 auto;
+  }
+}*/
