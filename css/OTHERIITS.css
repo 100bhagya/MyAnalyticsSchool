@@ -119,36 +119,14 @@ body {
     flex-direction: column;
   }
 }
-@media (max-width: 585px) {
-  .test-offer-container {
-    height: 45vw;
-  }
-}
-@media (max-width: 519px) {
-  .test-offer-container {
-    height: 50vw;
-  }
-}
-@media (max-width: 463px) {
-  .test-offer-container {
-    height: 55vw;
-  }
-}
-@media (max-width: 425px) {
-  .test-offer-container {
-    height: 58vw;
-  }
-}
-@media (max-width: 400px) {
-  .test-offer-container {
-    height: 65vw;
-  }
-}
-@media (max-width: 385px) {
-  .test-offer-container {
-    height: 68vw;
-  }
-}
+
+
+
+
+
+
+
+
 .h33 {
   text-align: center;
   font-size: 35.1px;
@@ -323,7 +301,7 @@ body {
   }*/
   .imageiitbhu h3 {
     top: 40%;
-    font-size: 7vw;
+    font-size: 5vw;
   }
   .imageiitbhu h5 {
     top: 57%;
@@ -332,13 +310,11 @@ body {
   .iit-bhu-details {
     top: 73%;
   }
-} /*
-@media (max-width:340px)
-{
-  .test-offer-container{
-    padding-top:105%;
+} 
+  .test-offer-container h3{
+    height: auto;
   }
-}
+  /*
 @media (max-width:318px)
 {
   .test-offer-container{
@@ -370,3 +346,192 @@ body {
     margin:0 auto;
   }
 }*/
+
+
+@media (max-width: 965px) {
+  #ff  {
+    height: 60vw;
+    margin-top: 0;
+  }
+  .d1 {
+    background-color: lightgray;
+    margin-top: 0;
+    padding-bottom: 2%;
+    padding-top: 3%;
+}
+}
+@media (max-width: 585px) {
+  #ff  {
+    height: 65vw;
+    margin-top: 0;
+  }
+  .d1 {
+    background-color: lightgray;
+    margin-top: 0;
+    padding-bottom: 2%;
+    padding-top: 3%;
+}
+}
+@media (max-width: 519px) {
+  #ff  {
+    height: 85vw; margin-top: 0;
+  }
+  .d1 {
+    background-color: lightgray;
+    margin-top: 0;
+    padding-bottom: 2%;
+    padding-top: 3%;
+}
+}
+
+@media (max-width: 468px) {
+  #ff {
+    height: 90vw; margin-top: 0;
+    padding-bottom: 3vw;
+  }
+  .d1 {
+    background-color: lightgray;
+    margin-top: 0;
+    padding-bottom: 2%;
+    padding-top: 3%;
+}
+}
+@media (max-width: 500px) {
+  #tt{
+    width:100%;
+  }
+  #tt h3  {
+   margin-left: 20%;
+   margin-right: 0;;
+  
+  }
+  .d1 {
+    background-color: lightgray;
+    margin-top: 0;
+    padding-bottom: 2%;
+    padding-top: 3%;
+}
+}
+@media (max-width: 425px) {
+  #ff  {
+    height: 110vw; margin-top: 0;
+    padding-bottom: 8vw;
+  }
+  #tt h3  {
+    margin-left: 10%;
+    margin-right: 0;;
+   
+   }
+   .button {
+    padding: 2vw 4vw;
+    height: 9vw;
+    font-size: 5vw;
+}
+.d1 {
+  background-color: lightgray;
+  margin-top: 0;
+  padding-bottom: 2%;
+  padding-top: 3%;
+}
+}
+@media (max-width: 400px) {
+  #ff  {
+    height: 120vw; margin-top: 0;
+  }
+  .button {
+    padding: 2.5vw 5vw;
+    height: 10vw;
+    font-size: 6vw;
+}
+#buttonup{
+
+    padding: 2vw 3vw;
+    height: 8vw;
+    font-size: 4vw;
+
+}
+.d1 {
+  background-color: lightgray;
+  margin-top: 0;
+  padding-bottom: 2%;
+  padding-top: 3%;
+}
+}
+@media (max-width: 385px) {
+  #ff  {
+    height: 130vw; margin-top: 0;
+  }
+  .container1 {
+    height: 110vh;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+.button {
+  padding: 2.5vw 5vw;
+  height: 10vw;
+  font-size: 6vw;
+}
+.d1 {
+  background-color: lightgray;
+  margin-top: 0;
+  padding-bottom: 2%;
+  padding-top: 3%;
+}
+}
+@media (max-width: 330px) {
+  #ff  {
+    height: 140vw; margin-top: 0;
+    padding-bottom: 15vw;
+  }
+  .h33 {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 400;
+    margin-bottom: 1%;
+}
+.heading4 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 500;
+  font-size: 27px;;
+}
+.button {
+  padding: 2.5vw 5vw;
+  height: 10vw;
+  font-size: 6vw;
+}
+.d1 {
+  background-color: lightgray;
+  margin-top: 0;
+  padding-bottom: 2%;
+  padding-top: 3%;
+}
+}
+@media (max-width: 320px) {
+  #ff  {
+    height: 150vw; margin-top: 0;
+    padding-bottom: 22vw;
+  }
+  .imageiitbhu h3 {
+    top: 40%;
+    font-size: 5vw;
+  }
+  .d1 {
+    background-color: lightgray;
+    margin-top: 0;
+    padding-bottom: 3%;
+    padding-top: 6%;
+}
+}
+@media (max-width: 310px) {
+  #ff  {
+    height: 170vw; margin-top: 0;
+    padding-bottom: 26vw;
+  }
+  .d1 {
+    background-color: lightgray;
+    margin-top: 0;
+    padding-bottom: 4%;
+    padding-top: 7%;
+}
+}
