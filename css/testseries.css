@@ -1,0 +1,14 @@
+h3 a{
+    text-decoration: none;
+    color:black;
+}
+h3 a:hover{
+    color: rgb(48, 117, 221);
+  
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:2%;
+}
