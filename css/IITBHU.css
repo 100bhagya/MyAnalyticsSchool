@@ -52,10 +52,9 @@
   width: 100%;
   overflow: hidden;
 }
-@media (max-width:865px)
-{
+@media (max-width: 865px) {
   .imageiitbhu {
-    height:50vw;
+    height: 50vw;
   }
 }
 .imageiitbhu h3 {
@@ -90,7 +89,6 @@
   font-size: 30px;
 }
 .c-isa {
-  
   text-align: center;
   font-size: 30px;
   background-color: lightgray;
@@ -271,50 +269,47 @@ li {
   list-style: disc;
 }
 
-
-
-
-body{
+body {
   /*padding-top: 65px; */
 }
 
-.details{
+.details {
   display: flex;
   justify-content: center;
   align-items: center;
   /*margin-bottom:2%;*/
 }
-.details{
-  flex:1 1 auto;
-  width:100%;
-  margin-top:2%;
-  display:flex;
-  
- /* height:auto;*/
-}
-.details-mentor{
-display: flex;
-justify-content: center;
-align-items: center;
-padding-bottom:1.5%;
-margin-bottom: 0;;
-}
-.details-mentor{
-flex:1 1 auto;
-width:100%;
-margin-top:0;
-display:flex;
-background-color: #a2b9cf;;
+.details {
+  flex: 1 1 auto;
+  width: 100%;
+  margin-top: 2%;
+  display: flex;
 
-/* height:auto;*/
+  /* height:auto;*/
+}
+.details-mentor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1.5%;
+  margin-bottom: 0;
+}
+.details-mentor {
+  flex: 1 1 auto;
+  width: 100%;
+  margin-top: 0;
+  display: flex;
+  background-color: #a2b9cf;
+
+  /* height:auto;*/
 }
 .button {
   background-color: #2f62da;
   border: none;
   color: white;
-  padding: 10px 1.5vw ;
+  padding: 10px 1.5vw;
 
-  height:40px;
+  height: 40px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -322,349 +317,330 @@ background-color: #a2b9cf;;
   font-weight: 200;
   margin: 0;
   cursor: pointer;
-  border-radius: .5vw;
+  border-radius: 0.5vw;
 }
-.test-offer-container{
+.test-offer-container {
   background-color: lightgray;
 }
-.imageiitbhu{
-    width:100%;
-    height:auto;
-    position:relative;
+.imageiitbhu {
+  width: 100%;
+  height: auto;
+  position: relative;
 }
-.imageiitbhu img{
-   object-fit: cover;
-   width:100%;
-   overflow: hidden;
+.imageiitbhu img {
+  object-fit: cover;
+  width: 100%;
+  overflow: hidden;
 }
-.imageiitbhu h3{
-    position:absolute;
-    left:8%;
-    top:40%;
-    font-size:3vw;
-    color:#ffffff;
+.imageiitbhu h3 {
+  position: absolute;
+  left: 8%;
+  top: 40%;
+  font-size: 3vw;
+  color: #ffffff;
 }
-.imageiitbhu h5{
-  position:absolute;
-  left:8%;
-  top:50%;
-  font-size:1.5vw;
-  color:#ffffff;
+.imageiitbhu h5 {
+  position: absolute;
+  left: 8%;
+  top: 50%;
+  font-size: 1.5vw;
+  color: #ffffff;
 }
-.iit-bhu-details
-{
-  position:absolute;
-  left:8%;
-  top:60%;
+.iit-bhu-details {
+  position: absolute;
+  left: 8%;
+  top: 60%;
 }
-.container2{
-    padding-top: 10px;
-
+.container2 {
+  padding-top: 10px;
 }
 
-@media (max-width:1100px)
-{
- .test-offer-container{
-   height: 40vw;
- }
- .offer-image img{
-   width:100%;
-   margin-top:9%;
- }
+@media (max-width: 1100px) {
+  .test-offer-container {
+    height: 40vw;
+  }
+  .offer-image img {
+    width: 100%;
+    margin-top: 9%;
+  }
 }
-@media (max-width:850px)
-{
- .test-offer-container{
-   height: 50vw;
- }
- .offer-image img{
-   width:100%;
-   margin-top:9%;
- }
+@media (max-width: 850px) {
+  .test-offer-container {
+    height: 50vw;
+  }
+  .offer-image img {
+    width: 100%;
+    margin-top: 9%;
+  }
 }
-@media (max-width:704px)
-{
- .test-offer-container{
-  margin-top:60%;
-  height:40vw;
- }
- .offer-image img{
-  /* display: none;*/
-   width:65%;
-   margin-top:9%;
- }
- .container1{
-   height:100vh;
-   flex-direction: column;
- }
+@media (max-width: 704px) {
+  .test-offer-container {
+    margin-top: 60%;
+    height: 40vw;
+  }
+  .offer-image img {
+    /* display: none;*/
+    width: 65%;
+    margin-top: 9%;
+  }
+  .container1 {
+    height: 100vh;
+    flex-direction: column;
+  }
 }
 
-.offers h3{
+.offers h3 {
   text-align: center;
 }
-#container2-heading{
-  font-size:38px;
+#container2-heading {
+  font-size: 38px;
   font-weight: 500;
 }
-.c-mentors{
+.c-mentors {
   margin-top: 0;
-    text-align: center;
-    font-size:30px;
-    background-color: #a2b9cf;
-}
-.mentor-section{
+  text-align: center;
+  font-size: 30px;
   background-color: #a2b9cf;
 }
-.c-isa{
- 
+.mentor-section {
+  background-color: #a2b9cf;
+}
+.c-isa {
   text-align: center;
-  font-size:30px;
+  font-size: 30px;
   background-color: lightgray;
 }
-.c-isa1{
-  padding-bottom:10px;
+.c-isa1 {
+  padding-bottom: 10px;
   text-align: center;
-  font-size:30px;
+  font-size: 30px;
   background-color: lightgray;
 }
 
-#isa-heading4{
-  padding-bottom:0;
+#isa-heading4 {
+  padding-bottom: 0;
 }
-#timeline-heading4{
+#timeline-heading4 {
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 0px;
   font-size: 38px;
-  
 }
-.heading4{
-   padding-top:20px;
-   padding-bottom:20px;
-   font-weight: 500;
+.heading4 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 500;
 }
 .container1 {
   padding: 0;
   width: 100%;
   background-color: lightgray;
-  height:52vh;
+  height: 52vh;
   min-height: 50vh;
-  display:flex;
+  display: flex;
 }
-.isa-left{
-  width:50%;
-  height:95%;
+.isa-left {
+  width: 50%;
+  height: 95%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.isa-right{
-  width:50%;
-  height:95%;}
-
-.isa-right img{
-   height:100%;
-  display: block;margin: auto;
-   width:100%;
+.isa-right {
+  width: 50%;
+  height: 95%;
 }
 
-.isa-content{
-   width:80%;
-   height:100%;
-   
-   display: flex;
-   align-items: center;
+.isa-right img {
+  height: 100%;
+  display: block;
+  margin: auto;
+  width: 100%;
 }
-.isa-content p{
+
+.isa-content {
+  width: 80%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+}
+.isa-content p {
   font-size: 25px;
-  color:black;
+  color: black;
 }
-@media (max-width:704px)
-{
- .container1{
-   height:95vh;
-   flex-direction: column-reverse;
-   justify-content: center;
- }
- .isa-left{
-   width:70%;
-   margin:0 13% 0 17%;
- }
- .isa-right{
-  margin:0 auto;
-}
-}
-
-
-.d1{
-   background-color:lightgray;
-   margin-top: 0;
-   padding-bottom: 1%;
+@media (max-width: 704px) {
+  .container1 {
+    height: 95vh;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .isa-left {
+    width: 70%;
+    margin: 0 13% 0 17%;
+  }
+  .isa-right {
+    margin: 0 auto;
+  }
 }
 
-.d2{
-background-color:#a2b9cf;
-margin-top: 0;
-padding-bottom: 1%;
+.d1 {
+  background-color: lightgray;
+  margin-top: 0;
+  padding-bottom: 1%;
+}
+
+.d2 {
+  background-color: #a2b9cf;
+  margin-top: 0;
+  padding-bottom: 1%;
 }
 
 /*timeline*/
-#timeline-1{
-background-color: #a2b9cf;
+#timeline-1 {
+  background-color: #a2b9cf;
 }
-@media (max-width:1099px){
-     #card3{
-         display: none !important;
-     }
-}
-@media (max-width:704px)
-{
-.button{
-  padding: 1.5vw 2vw;
-  height: 6vw;
-  font-size:3vw;
-}
-.imageiitbhu{
-  height:55vw;
-}
-.imageiitbhu img{
-  height: 100%;
-
-}
-.imageiitbhu h3{
-  top:40%;
-  font-size: 5vw;
-}
-.imageiitbhu h5{
-  top:53%;
-  font-size: 2vw;
-}
-.iit-bhu-details{
-  top:65%;
-}
-
-}
-
-
-@media (max-width:550px){
-  .imageiitbhu{
-    height:60vw;
+@media (max-width: 1099px) {
+  #card3 {
+    display: none !important;
   }
 }
-@media (max-width:650px){
-  .test-offer-container{
-    margin-top:75%;
+@media (max-width: 704px) {
+  .button {
+    padding: 1.5vw 2vw;
+    height: 6vw;
+    font-size: 3vw;
   }
-  .isa-right{
-    width:60%;
+  .imageiitbhu {
+    height: 55vw;
   }
-  
-}
-@media (max-width:600px)
-{
-.imageiitbhu h3{
-  top:35%;
-  font-size: 5vw;
-}
-.imageiitbhu h5{
-  top:49%;
-  font-size: 2.5vw;
-}
-.iit-bhu-details{
-  top:65%;
-}
-}
-@media (max-width:480px)
-{
-.test-offer-container{
-  margin-top:80%;
-}
-}
-@media (max-width:448px)
-{
-.test-offer-container{
-  margin-top:85%;
-}
-}
-@media (max-width:405px)
-{
-.test-offer-container{
-  margin-top:90%;
-}
-}
-@media (max-width:385px)
-{
-.test-offer-container{
-  margin-top:95%;
-}
-}
-@media (max-width:370px)
-{
-.test-offer-container{
-  margin-top:100%;
-}
-.imageiitbhu h3{
-  top:40%;
-  font-size: 7vw;
-}
-.imageiitbhu h5{
-  top:57%;
-  font-size: 3vw;
-}
-.iit-bhu-details{
-  top:73%;
-}
-}
-@media (max-width:340px)
-{
-.test-offer-container{
-  margin-top:105%;
-}
-}
-@media (max-width:318px)
-{
-.test-offer-container{
-  margin-top:110%;
-}
+  .imageiitbhu img {
+    height: 100%;
+  }
+  .imageiitbhu h3 {
+    top: 40%;
+    font-size: 5vw;
+  }
+  .imageiitbhu h5 {
+    top: 53%;
+    font-size: 2vw;
+  }
+  .iit-bhu-details {
+    top: 65%;
+  }
 }
 
-@media (min-width:1100px){
-.test-offer{
-  margin-right:0;
-  margin-left:20%;
+@media (max-width: 550px) {
+  .imageiitbhu {
+    height: 60vw;
+  }
 }
-#offers h3{
-  padding-left:10%;
+@media (max-width: 650px) {
+  .test-offer-container {
+    margin-top: 75%;
+  }
+  .isa-right {
+    width: 60%;
+  }
 }
-.test-offer h3{
-  font-size: 22px;
+@media (max-width: 600px) {
+  .imageiitbhu h3 {
+    top: 35%;
+    font-size: 5vw;
+  }
+  .imageiitbhu h5 {
+    top: 49%;
+    font-size: 2.5vw;
+  }
+  .iit-bhu-details {
+    top: 65%;
+  }
 }
+@media (max-width: 480px) {
+  .test-offer-container {
+    margin-top: 80%;
+  }
 }
-@media (max-width:500px)
-{/*
+@media (max-width: 448px) {
+  .test-offer-container {
+    margin-top: 85%;
+  }
+}
+@media (max-width: 405px) {
+  .test-offer-container {
+    margin-top: 90%;
+  }
+}
+@media (max-width: 385px) {
+  .test-offer-container {
+    margin-top: 95%;
+  }
+}
+@media (max-width: 370px) {
+  .test-offer-container {
+    margin-top: 100%;
+  }
+  .imageiitbhu h3 {
+    top: 40%;
+    font-size: 7vw;
+  }
+  .imageiitbhu h5 {
+    top: 57%;
+    font-size: 3vw;
+  }
+  .iit-bhu-details {
+    top: 73%;
+  }
+}
+@media (max-width: 340px) {
+  .test-offer-container {
+    margin-top: 105%;
+  }
+}
+@media (max-width: 318px) {
+  .test-offer-container {
+    margin-top: 110%;
+  }
+}
+
+@media (min-width: 1100px) {
+  .test-offer {
+    margin-right: 0;
+    margin-left: 20%;
+  }
+  #offers h3 {
+    padding-left: 10%;
+  }
+  .test-offer h3 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 500px) {
+  /*
 #offers h1{
   font-size: 7vw;
   }*/
-}/*
+} /*
 @media (min-width:900px)
 {
 .main{
   width:80%;
   margin:0 auto;
 }
-}*/@media (max-width:450px){
-  .imageiitbhu{
-    height:70vw;
+}*/
+@media (max-width: 450px) {
+  .imageiitbhu {
+    height: 70vw;
   }
-  .imageiitbhu h3{
-    top:50%;
+  .imageiitbhu h3 {
+    top: 50%;
   }
-  .imageiitbhu h5{
-    top:62%;
+  .imageiitbhu h5 {
+    top: 62%;
   }
-  .iit-bhu-details{
-    top:70%;
+  .iit-bhu-details {
+    top: 70%;
   }
 }
