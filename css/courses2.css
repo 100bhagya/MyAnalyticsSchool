@@ -3,6 +3,7 @@
 }
 body {
   min-height: 100vh;
+  min-width: 100%;
   display: grid;
   line-height: 1.7;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
