@@ -3,7 +3,7 @@
 }
 body {
   min-height: 100vh;
-  min-width: 100%;
+  max-width: 100%;
   display: grid;
   line-height: 1.7;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -84,8 +84,8 @@ nav {
   .nav-links {
     position: fixed;
     right: 0;
-    height: 92vh;
-    top: 8vh;
+    height: 100%;
+    top: 7vh;
     background-color: #054a91;
     display: flex;
     flex-direction: column;
@@ -476,7 +476,7 @@ li.row:nth-child(2):hover {
 
 .custom-shape-divider-top-1628000846 .shape-fill {
   fill: #7d81c9;
-}*/
+}
 
 .custom-shape-divider-top-1628136062 {
   position: absolute;
@@ -497,7 +497,7 @@ li.row:nth-child(2):hover {
 .custom-shape-divider-top-1628136062 .shape-fill {
   fill: #5989ce;
 }
-
+*/
 /*footer*/
 footer {
   bottom: 0;
@@ -658,4 +658,15 @@ footer {
     line-height: normal;
     font-size: auto;
   }
+}
+.coursepg {
+  display: block;
+  text-align: center;
+  background-color: #5383d3;
+  margin: 0rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: rgb(250, 245, 245);
+  margin-top: 5rem;
+  padding: 0.6rem;
 }
