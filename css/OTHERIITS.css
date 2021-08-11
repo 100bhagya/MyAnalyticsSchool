@@ -51,6 +51,7 @@ body {
 .test-offer-container {
   background-color: lightgray;
 }
+
 .imageiitbhu {
   width: 100%;
   height: auto;
@@ -59,21 +60,22 @@ body {
 .imageiitbhu img {
   object-fit: cover;
   width: 100%;
+  height: 91.8vh;
   overflow: hidden;
 }
 .imageiitbhu h3 {
   position: absolute;
   left: 8%;
   top: 40%;
-  font-size: 3vw;
-  color: #ffffff;
+  font-size: 4vw;
+  font-weight: 750;
 }
 .imageiitbhu h5 {
   position: absolute;
   left: 8%;
   top: 50%;
   font-size: 1.5vw;
-  color: #ffffff;
+  color: #c7c4c4;
 }
 .iit-bhu-details {
   position: absolute;
@@ -100,6 +102,18 @@ body {
   .offer-image img {
     width: 100%;
     margin-top: 9%;
+  }
+}
+@media (max-width: 768px)
+{
+  .imageiitbhu h5{
+    top: 45%;
+  }
+}
+
+@media(max-width:1024px){
+  .imageiitbhu h5{
+    top: 45%;
   }
 }
 
@@ -278,7 +292,7 @@ body {
 @media (max-width: 600px) {
   .imageiitbhu h3 {
     top: 35%;
-    font-size: 5vw;
+    font-size: 5.7vw;
   }
   .imageiitbhu h5 {
     top: 49%;
@@ -299,7 +313,7 @@ body {
   }
   .imageiitbhu h5 {
     top: 57%;
-    font-size: 3vw;
+    font-size: 2.8vw;
   }
   .iit-bhu-details {
     top: 73%;
@@ -393,6 +407,7 @@ body {
 }
 @media (max-width: 500px) {
   #tt {
+    font-size: 0.915rem;
     width: 100%;
   }
   #tt h3 {
@@ -419,7 +434,7 @@ body {
   .button {
     padding: 2vw 4vw;
     height: 9vw;
-    font-size: 5vw;
+    font-size: 3vw;
   }
   /*.d1 {
     background-color: lightgray;
@@ -531,3 +546,10 @@ body {
     padding-top: 7%;
   }*/
 }
+
+@media (max-width: 400px){
+  #buttonup {
+      padding: 2vw 3vw;
+      height: 6vw;
+      font-size: 2.5vw;
+  }}

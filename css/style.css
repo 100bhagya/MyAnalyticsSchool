@@ -40,6 +40,7 @@ nav {
   width: 40%;
   font-weight: bold;
   background-color: #054a91;
+  transition: all 400ms ease;
 }
 
 .logo img {
@@ -56,6 +57,10 @@ nav {
   text-decoration: none;
   letter-spacing: 1px;
   font-size: 14px;
+}
+
+.nav-links a:hover {
+  color: #96a1a5;
 }
 
 .burger {
