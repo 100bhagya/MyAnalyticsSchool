@@ -46,8 +46,12 @@ nav {
   text-decoration: none;
   letter-spacing: 1px;
   font-size: 14px;
+  transition: all 245ms ease;
 }
 
+.nav-links a:hover {
+  color: #96a1a5;
+}
 .burger {
   display: none;
 }
@@ -496,8 +500,8 @@ li.row:nth-child(2):hover {
 
 .custom-shape-divider-top-1628136062 .shape-fill {
   fill: #5989ce;
-}
-*/
+}*/
+
 /*footer*/
 footer {
   bottom: 0;
