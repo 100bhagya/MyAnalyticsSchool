@@ -40,6 +40,7 @@ nav {
   width: 40%;
   font-weight: bold;
   background-color: #054a91;
+  transition: all 246ms ease;
 }
 
 .logo img {
@@ -56,6 +57,10 @@ nav {
   text-decoration: none;
   letter-spacing: 1px;
   font-size: 14px;
+}
+
+.nav-links a:hover {
+  color: #96a1a5;
 }
 
 .burger {
@@ -522,10 +527,34 @@ li.row:nth-child(2):hover {
 }
 
 /* Our Unique offerings */
+/*.container2 {
+  /*background-color: #a2b9cf;
+  background: linear-gradient(
+    0deg,
+    rgba(244, 244, 247, 1) 10%,
+    rgba(16, 83, 236, 1) 590%
+  );
+  color: white;
+  min-height: 64.5vh;
+  width: 100%;
+  box-sizing: border-box;
+}*/
+
 .container2 {
   background-color: #a2b9cf;
+  min-height: 64.5vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#offers {
+  background: linear-gradient(
+    0deg,
+    rgba(244, 244, 247, 1) 10%,
+    rgba(16, 83, 236, 1) 590%
+  );
   color: white;
-  min-height: 60vh;
+  min-height: 64.5vh;
   width: 100%;
   box-sizing: border-box;
 }
@@ -541,25 +570,29 @@ li.row:nth-child(2):hover {
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
-  padding-top: 70px;
-  padding-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   font-size: 30px;
 }
 
 .point {
   margin: 5px;
   padding: 20px;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   box-sizing: border-box;
-  border: solid;
-  border-radius: 2em;
-  border-color: white;
-  background-color: lightgray;
+  border: 3px solid gainsboro;
+  border-radius: 3em;
+  border-color: rgb(144, 141, 141);
+  background-color: rgb(247, 244, 244);
   color: black;
   font-weight: bold;
+  box-shadow: 9px 14px 30px #bfbfd7;
 }
 
+#container2-heading {
+  color: #054a91;
+}
 @media (max-width: 900px) {
   .offerings {
     width: 90%;
@@ -574,8 +607,9 @@ li.row:nth-child(2):hover {
   }
 
   .point {
-    margin: 2px;
-    padding: 7px;
+    margin: 6px;
+    padding: 1.2rem;
+    height: 5.2rem;
   }
 }
 

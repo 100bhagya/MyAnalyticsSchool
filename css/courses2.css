@@ -3,9 +3,11 @@
 }
 body {
   min-height: 100vh;
+  max-width: 100%;
   display: grid;
   line-height: 1.7;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  overflow-x: hidden;
 }
 
 nav {
@@ -18,6 +20,7 @@ nav {
   background-color: #054a91;
   z-index: 20;
   top: 0;
+  font-family: sans-serif;
 }
 
 .nav-links {
@@ -26,6 +29,7 @@ nav {
   width: 40%;
   font-weight: bold;
   background-color: #054a91;
+  margin-top: 1rem;
 }
 
 .logo img {
@@ -42,8 +46,12 @@ nav {
   text-decoration: none;
   letter-spacing: 1px;
   font-size: 14px;
+  transition: all 245ms ease;
 }
 
+.nav-links a:hover {
+  color: #96a1a5;
+}
 .burger {
   display: none;
 }
@@ -80,8 +88,8 @@ nav {
   .nav-links {
     position: fixed;
     right: 0;
-    height: 92vh;
-    top: 8vh;
+    height: 100%;
+    top: 7vh;
     background-color: #054a91;
     display: flex;
     flex-direction: column;
@@ -454,7 +462,7 @@ li.row:nth-child(2):hover {
   list-style: none;
 }
 
-.custom-shape-divider-top-1628000846 {
+/*.custom-shape-divider-top-1628000846 {
   position: absolute;
   top: 0;
   left: 0;
@@ -473,6 +481,26 @@ li.row:nth-child(2):hover {
 .custom-shape-divider-top-1628000846 .shape-fill {
   fill: #7d81c9;
 }
+
+.custom-shape-divider-top-1628136062 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1628136062 svg {
+  position: relative;
+  display: block;
+  width: calc(166% + 1.3px);
+  height: 380px;
+}
+
+.custom-shape-divider-top-1628136062 .shape-fill {
+  fill: #5989ce;
+}*/
 
 /*footer*/
 footer {
@@ -634,4 +662,15 @@ footer {
     line-height: normal;
     font-size: auto;
   }
+}
+.coursepg {
+  display: block;
+  text-align: center;
+  background-color: #5383d3;
+  margin: 0rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: rgb(250, 245, 245);
+  margin-top: 5rem;
+  padding: 0.6rem;
 }

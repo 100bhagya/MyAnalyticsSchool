@@ -2,20 +2,20 @@ body {
   /*padding-top: 65px; */
 }
 
-.details {
+/*.details {
   display: flex;
   justify-content: center;
   align-items: center;
   /*margin-bottom:2%;*/
-}
-.details {
+}*/
+/*.details {
   flex: 1 1 auto;
   width: 100%;
   margin-top: 2%;
   display: flex;
 
   /* height:auto;*/
-}
+}*/
 .details-mentor {
   display: flex;
   justify-content: center;
@@ -33,7 +33,7 @@ body {
   /* height:auto;*/
 }
 .button {
-  background-color: #2f62da;
+  background-color: #5775bb;
   border: none;
   color: white;
   padding: 10px 1.5vw;
@@ -43,14 +43,15 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 700;
   margin: 0;
   cursor: pointer;
-  border-radius: 0.5vw;
+  border-radius: 1.2vw;
 }
 .test-offer-container {
   background-color: lightgray;
 }
+
 .imageiitbhu {
   width: 100%;
   height: auto;
@@ -59,21 +60,22 @@ body {
 .imageiitbhu img {
   object-fit: cover;
   width: 100%;
+  height: 91.8vh;
   overflow: hidden;
 }
 .imageiitbhu h3 {
   position: absolute;
   left: 8%;
   top: 40%;
-  font-size: 3vw;
-  color: #ffffff;
+  font-size: 4vw;
+  font-weight: 750;
 }
 .imageiitbhu h5 {
   position: absolute;
   left: 8%;
   top: 50%;
   font-size: 1.5vw;
-  color: #ffffff;
+  color:#7d7878;
 }
 .iit-bhu-details {
   position: absolute;
@@ -102,6 +104,18 @@ body {
     margin-top: 9%;
   }
 }
+@media (max-width: 768px)
+{
+  .imageiitbhu h5{
+    top: 45%;
+  }
+}
+
+@media(max-width:1024px){
+  .imageiitbhu h5{
+    top: 45%;
+  }
+}
 
 @media (max-width: 704px) {
   .test-offer-container {
@@ -119,13 +133,6 @@ body {
     flex-direction: column;
   }
 }
-
-
-
-
-
-
-
 
 .h33 {
   text-align: center;
@@ -158,9 +165,9 @@ body {
   background-color: lightgray;
 }
 
-#isa-heading4 {
+/*#isa-heading4 {
   padding-bottom: 0;
-}
+}*/
 #timeline-heading4 {
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -169,11 +176,11 @@ body {
   padding-bottom: 0px;
   font-size: 38px;
 }
-.heading4 {
+/*.heading4 {
   padding-top: 20px;
   padding-bottom: 20px;
   font-weight: 500;
-}
+}*/
 .container1 {
   padding: 0;
   width: 100%;
@@ -182,7 +189,7 @@ body {
   min-height: 50vh;
   display: flex;
 }
-.isa-left {
+/*.isa-left {
   width: 50%;
   height: 95%;
   display: flex;
@@ -211,23 +218,24 @@ body {
 .isa-content p {
   font-size: 25px;
   color: black;
-}
+}*/
 @media (max-width: 704px) {
   .container1 {
     height: 95vh;
     flex-direction: column-reverse;
     justify-content: center;
   }
+  /*
   .isa-left {
     width: 70%;
     margin: 0 13% 0 17%;
   }
   .isa-right {
     margin: 0 auto;
-  }
+  }*/
 }
 
-.d1 {
+/*.d1 {
   background-color: lightgray;
   margin-top: 0;
   padding-bottom: 1%;
@@ -237,7 +245,7 @@ body {
   background-color: #a2b9cf;
   margin-top: 0;
   padding-bottom: 1%;
-}
+}*/
 
 /*timeline*/
 #timeline-1 {
@@ -284,7 +292,7 @@ body {
 @media (max-width: 600px) {
   .imageiitbhu h3 {
     top: 35%;
-    font-size: 5vw;
+    font-size: 5.7vw;
   }
   .imageiitbhu h5 {
     top: 49%;
@@ -305,16 +313,16 @@ body {
   }
   .imageiitbhu h5 {
     top: 57%;
-    font-size: 3vw;
+    font-size: 2.8vw;
   }
   .iit-bhu-details {
     top: 73%;
   }
-} 
-  .test-offer-container h3{
-    height: auto;
-  }
-  /*
+}
+.test-offer-container h3 {
+  height: auto;
+}
+/*
 @media (max-width:318px)
 {
   .test-offer-container{
@@ -347,140 +355,142 @@ body {
   }
 }*/
 
-
 @media (max-width: 965px) {
-  #ff  {
+  #ff {
     height: 60vw;
     margin-top: 0;
   }
-  .d1 {
+  /*.d1 {
     background-color: lightgray;
     margin-top: 0;
     padding-bottom: 2%;
     padding-top: 3%;
-}
+  }*/
 }
 @media (max-width: 585px) {
-  #ff  {
+  #ff {
     height: 65vw;
     margin-top: 0;
   }
-  .d1 {
+  /*.d1 {
     background-color: lightgray;
     margin-top: 0;
     padding-bottom: 2%;
     padding-top: 3%;
-}
+  }*/
 }
 @media (max-width: 519px) {
-  #ff  {
-    height: 85vw; margin-top: 0;
+  #ff {
+    height: 85vw;
+    margin-top: 0;
   }
-  .d1 {
+  /*.d1 {
     background-color: lightgray;
     margin-top: 0;
     padding-bottom: 2%;
     padding-top: 3%;
-}
+  }*/
 }
 
 @media (max-width: 468px) {
   #ff {
-    height: 90vw; margin-top: 0;
+    height: 90vw;
+    margin-top: 0;
     padding-bottom: 3vw;
   }
-  .d1 {
+  /*.d1 {
     background-color: lightgray;
     margin-top: 0;
     padding-bottom: 2%;
     padding-top: 3%;
-}
+  }*/
 }
 @media (max-width: 500px) {
-  #tt{
-    width:100%;
+  #tt {
+    font-size: 0.915rem;
+    width: 100%;
   }
-  #tt h3  {
-   margin-left: 20%;
-   margin-right: 0;;
-  
+  #tt h3 {
+    margin-left: 20%;
+    margin-right: 0;
   }
-  .d1 {
+  /*.d1 {
     background-color: lightgray;
     margin-top: 0;
     padding-bottom: 2%;
     padding-top: 3%;
-}
+  }*/
 }
 @media (max-width: 425px) {
-  #ff  {
-    height: 110vw; margin-top: 0;
+  #ff {
+    height: 110vw;
+    margin-top: 0;
     padding-bottom: 8vw;
   }
-  #tt h3  {
+  #tt h3 {
     margin-left: 10%;
-    margin-right: 0;;
-   
-   }
-   .button {
+    margin-right: 0;
+  }
+  .button {
     padding: 2vw 4vw;
     height: 9vw;
-    font-size: 5vw;
-}
-.d1 {
-  background-color: lightgray;
-  margin-top: 0;
-  padding-bottom: 2%;
-  padding-top: 3%;
-}
+    font-size: 3vw;
+  }
+  /*.d1 {
+    background-color: lightgray;
+    margin-top: 0;
+    padding-bottom: 2%;
+    padding-top: 3%;
+  }*/
 }
 @media (max-width: 400px) {
-  #ff  {
-    height: 120vw; margin-top: 0;
+  #ff {
+    height: 120vw;
+    margin-top: 0;
   }
   .button {
     padding: 2.5vw 5vw;
     height: 10vw;
     font-size: 6vw;
-}
-#buttonup{
-
+  }
+  #buttonup {
     padding: 2vw 3vw;
     height: 8vw;
     font-size: 4vw;
-
-}
-.d1 {
-  background-color: lightgray;
-  margin-top: 0;
-  padding-bottom: 2%;
-  padding-top: 3%;
-}
+  }
+  /*.d1 {
+    background-color: lightgray;
+    margin-top: 0;
+    padding-bottom: 2%;
+    padding-top: 3%;
+  }*/
 }
 @media (max-width: 385px) {
-  #ff  {
-    height: 130vw; margin-top: 0;
+  #ff {
+    height: 130vw;
+    margin-top: 0;
   }
   .container1 {
     height: 110vh;
     flex-direction: column-reverse;
     justify-content: center;
-}
-.button {
-  padding: 2.5vw 5vw;
-  height: 10vw;
-  font-size: 6vw;
-}
-.d1 {
-  background-color: lightgray;
-  margin-top: 0;
-  padding-bottom: 2%;
-  padding-top: 3%;
-}
+  }
+  .button {
+    padding: 2.5vw 5vw;
+    height: 10vw;
+    font-size: 6vw;
+  }
+  /*.d1 {
+    background-color: lightgray;
+    margin-top: 0;
+    padding-bottom: 2%;
+    padding-top: 3%;
+  }*/
 }
 @media (max-width: 330px) {
-  #ff  {
-    height: 140vw; margin-top: 0;
+  #ff {
+    height: 140vw;
+    margin-top: 0;
     padding-bottom: 15vw;
   }
   .h33 {
@@ -488,50 +498,58 @@ body {
     font-size: 27px;
     font-weight: 400;
     margin-bottom: 1%;
-}
-.heading4 {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-weight: 500;
-  font-size: 27px;;
-}
-.button {
-  padding: 2.5vw 5vw;
-  height: 10vw;
-  font-size: 6vw;
-}
-.d1 {
-  background-color: lightgray;
-  margin-top: 0;
-  padding-bottom: 2%;
-  padding-top: 3%;
-}
+  }
+  .heading4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 27px;
+  }
+  .button {
+    padding: 2.5vw 5vw;
+    height: 11.5vw;
+    font-size: 6vw;
+  }
+  /*.d1 {
+    background-color: lightgray;
+    margin-top: 0;
+    padding-bottom: 2%;
+    padding-top: 3%;
+  }*/
 }
 @media (max-width: 320px) {
-  #ff  {
-    height: 150vw; margin-top: 0;
+  #ff {
+    height: 150vw;
+    margin-top: 0;
     padding-bottom: 22vw;
   }
   .imageiitbhu h3 {
     top: 40%;
     font-size: 5vw;
   }
-  .d1 {
+  /*.d1 {
     background-color: lightgray;
     margin-top: 0;
     padding-bottom: 3%;
     padding-top: 6%;
-}
+  }*/
 }
 @media (max-width: 310px) {
-  #ff  {
-    height: 170vw; margin-top: 0;
+  #ff {
+    height: 170vw;
+    margin-top: 0;
     padding-bottom: 26vw;
   }
-  .d1 {
+  /* .d1 {
     background-color: lightgray;
     margin-top: 0;
     padding-bottom: 4%;
     padding-top: 7%;
+  }*/
 }
-}
+
+@media (max-width: 400px){
+  #buttonup {
+      padding: 2vw 3vw;
+      height: 6vw;
+      font-size: 2.5vw;
+  }}
