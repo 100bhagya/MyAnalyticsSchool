@@ -595,7 +595,7 @@ height: 70%;
       height: 8vw;
       font-size: 3vw;*/
       margin-top: 4rem;
-    }
+    }}
     @media (max-width: 330px){
 .button {
     padding: 2.5vw 5vw;
@@ -627,6 +627,14 @@ height: 70%;
     height: 6vw;
     font-size: 3vw;
 }}
+
+@media (max-width: 430px) {
+  #reg{
+    margin-top: 1rem;
+  }
+  
+}
+/*
 .button {
     background-color: #5775bb;
     border: none;
@@ -642,6 +650,7 @@ height: 70%;
     cursor: pointer;
     border-radius: 1.2vw;
 }
+*/
   .imageiitbhu {
     height: 55vw;
   }
