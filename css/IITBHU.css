@@ -777,3 +777,12 @@ height: 70%;
     top: 70%;
   }
 }
+
+@media (max-width: 430px) {
+  #reg{
+    margin-top: 1rem;
+    font-size: 0.6rem;
+    height: 30px;
+  }
+  
+}
